@@ -1,3 +1,9 @@
-export default function Home() {
-  return <div className="text-3xl text-green-950 ">Dobrodošli na Pistać Media!!!</div>;
-}
+const Home = () => {
+  return (
+    <div className="text-primary bg-secondary w-full text-3xl">
+      Dobrodošli na Pistać Media!!!
+    </div>
+  );
+};
+
+export default Home;
