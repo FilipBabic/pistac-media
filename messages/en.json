@@ -1,0 +1,67 @@
+{
+  "Home": {
+    "Header": {
+      "h1": "Your vision. Our technology. Mutual success.",
+      "p-1": "We create modern websites, applications, and digital campaigns that boost your visibility and sales.",
+      "link": "Request a free consultation",
+      "p-2": "The first consultation is completely free and without obligation."
+    },
+    "WhyChooseUs": {
+      "badge": "Why choose us?",
+      "h2": "Our approach delivers results",
+      "p-1": "We focus on your goals, providing modern digital solutions and outstanding support every step of the way.",
+      "Cards": {
+        "title-1": "Fast delivery",
+        "title-2": "Results first",
+        "title-3": "Full security",
+        "title-4": "Approachable team",
+        "content-1": "Projects are delivered on time with full transparency at every stage.",
+        "content-2": "We focus on solutions that drive real business outcomes.",
+        "content-3": "Your data, projects, and ideas are protected and treated with full confidentiality.",
+        "content-4": "Open communication and a friendly relationship with every client."
+      }
+    },
+    "Services": {
+      "badge": "Our Services",
+      "h2": "Solutions we develop for your growth",
+      "p-1": "Our services are tailored to support your business at every stage of digital transformation.",
+      "button": "Learn more",
+      "Cards": {
+        "title-1": "Website Development",
+        "title-2": "Web Application Development",
+        "title-3": "Digital Marketing",
+        "Bullets-1": {
+          "content-1": "Modern and fast websites",
+          "content-2": "Mobile optimization",
+          "content-3": "SEO-friendly structure"
+        },
+        "Bullets-2": {
+          "content-1": "Full-stack solutions",
+          "content-2": "Custom CMS and admin panels",
+          "content-3": "API integrations"
+        },
+        "Bullets-3": {
+          "content-1": "Google & Meta advertising",
+          "content-2": "Social media management",
+          "content-3": "Email & content marketing"
+        }
+      }
+    }
+  },
+  "About": {
+    "title": "About Us 2",
+    "about": "Learn more about our team. 2"
+  },
+  "LocaleSwitcher": {
+    "label": "Change Language",
+    "locale": "{locale, select,sr {🇷🇸 srpski} de {🇩🇪 deutch} en {🇺🇸 english} other {Unknown}}"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services"
+  },
+  "NotFoundPage": {
+    "description": "NOT FOUND DESCRIPTION"
+  }
+}

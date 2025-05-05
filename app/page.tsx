@@ -1,9 +1,6 @@
-const Home = () => {
-  return (
-    <div className="text-primary bg-secondary w-full text-3xl">
-      Dobrodošli na Pistać Media!!!
-    </div>
-  );
-};
+import { redirect } from 'next/navigation';
 
-export default Home;
+// This page only renders when the app is built statically (output: 'export')
+export default function RootPage() {
+  redirect('/');
+}

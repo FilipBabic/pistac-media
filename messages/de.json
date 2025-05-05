@@ -1,0 +1,67 @@
+{
+  "Home": {
+    "Header": {
+      "h1": "Ihre Vision. Unsere Technologie. Unser gemeinsamer Erfolg.",
+      "p-1": "Wir erstellen moderne Websites, Apps und digitale Kampagnen, die Ihre Sichtbarkeit und Ihren Umsatz steigern.",
+      "link": "Fordern Sie eine kostenlose Beratung an",
+      "p-2": "Das erste Gespräch ist völlig kostenlos und unverbindlich."
+    },
+    "WhyChooseUs": {
+      "badge": "Warum wir?",
+      "h2": "Unser Ansatz bringt Ergebnisse",
+      "p-1": "Wir konzentrieren uns auf Ihre Ziele und bieten moderne digitale Lösungen sowie erstklassige Unterstützung in jeder Phase.",
+      "Cards": {
+        "title-1": "Schnelle Umsetzung",
+        "title-2": "Ergebnisse im Fokus",
+        "title-3": "Volle Sicherheit",
+        "title-4": "Zugängliches Team",
+        "content-1": "Projekte werden termingerecht und mit voller Transparenz umgesetzt.",
+        "content-2": "Wir setzen auf Lösungen, die messbare Geschäftsergebnisse liefern.",
+        "content-3": "Ihre Daten, Projekte und Ideen sind geschützt und werden vertraulich behandelt.",
+        "content-4": "Offene Kommunikation und ein freundlicher Umgang mit jedem Kunden."
+      }
+    },
+    "Services": {
+      "badge": "Unsere Leistungen",
+      "h2": "Lösungen, die wir für Ihr Wachstum entwickeln",
+      "p-1": "Unsere Dienstleistungen sind darauf ausgelegt, Ihr Unternehmen in jeder Phase der digitalen Transformation zu unterstützen.",
+      "button": "Mehr erfahren",
+      "Cards": {
+        "title-1": "Website-Erstellung",
+        "title-2": "Webanwendungsentwicklung",
+        "title-3": "Digitales Marketing",
+        "Bullets-1": {
+          "content-1": "Moderne und schnelle Websites",
+          "content-2": "Mobile Optimierung",
+          "content-3": "SEO-freundliche Struktur"
+        },
+        "Bullets-2": {
+          "content-1": "Full-Stack-Lösungen",
+          "content-2": "Individuelle CMS und Admin-Panels",
+          "content-3": "API-Integrationen"
+        },
+        "Bullets-3": {
+          "content-1": "Google & Meta Werbung",
+          "content-2": "Social-Media-Management",
+          "content-3": "E-Mail- & Content-Marketing"
+        }
+      }
+    }
+  },
+  "About": {
+    "title": "Uber uns 2",
+    "about": "Erfahren Sie mehr über unser Team. 2"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select,sr {🇷🇸 srpski} de {🇩🇪 deutch} en {🇺🇸 english} other {Unknown}}"
+  },
+  "Navigation": {
+    "home": "Start",
+    "about": "Uber uns",
+    "services": "Dienstleistungen"
+  },
+  "NotFoundPage": {
+    "description": "NOT FOUND DESCRIPTION"
+  }
+}

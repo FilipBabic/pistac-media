@@ -1,0 +1,75 @@
+{
+  "Home": {
+    "Header": {
+      "h1": "Vaša ideja. Naša tehnologija. Zajednički uspeh.",
+      "p-1": "Izrađujemo moderne web sajtove, aplikacije i digitalne kampanje koje povećavaju vašu vidljivost i prodaju.",
+      "link": "Zatraži besplatnu konsultaciju",
+      "p-2": "Prvi razgovor je potpuno besplatan i bez obaveza."
+    },
+    "WhyChooseUs": {
+      "badge": "Zašto baš mi?",
+      "h2": "Naš pristup donosi rezultate",
+      "p-1": "Fokusirani smo na vaše ciljeve, pružajući moderna digitalna rešenja i izuzetnu podršku na svakom koraku.",
+      "Cards": {
+        "title-1": "Brza realizacija",
+        "title-2": "Rezultati na prvom mestu",
+        "title-3": "Potpuna sigurnost",
+        "title-4": "Pristupačan tim",
+        "content-1": "Projekti se realizuju u dogovorenom roku uz punu transparentnost u svakom koraku.",
+        "content-2": "Fokusiramo se na rešenja koja donose konkretne poslovne rezultate.",
+        "content-3": "Vaši podaci, projekti i ideje su zaštićeni i tretirani s punim poverenjem.",
+        "content-4": "Otvorena komunikacija i prijateljski odnos sa svakim klijentom."
+      }
+    },
+    "Services": {
+      "badge": "Naše usluge",
+      "h2": "Rešenja koja razvijamo za vaš rast",
+      "p-1": "Naše usluge su prilagođene da podrže vaš biznis kroz svaki korak digitalne transformacije.",
+      "button": "Saznaj više",
+      "Cards": {
+        "title-1": "Izrada web sajtova",
+        "title-2": "Razvoj web aplikacija",
+        "title-3": "Digitalni marketing",
+        "Bullets-1": {
+          "content-1": "Moderne i brze stranice",
+          "content-2": "Mobilna optimizacija",
+          "content-3": "SEO friendly struktura"
+        },
+        "Bullets-2": {
+          "content-1": "Full-stack rešenja",
+          "content-2": "Prilagođeni CMS i admin paneli",
+          "content-3": "API integracije"
+        },
+        "Bullets-3": {
+          "content-1": "Google & Meta oglašavanje",
+          "content-2": "Upravljanje društvenim mrežama",
+          "content-3": "Email & content marketing"
+        }
+      }
+    }
+  },
+  "Header": {
+    "h1": "Vaša ideja. Naša tehnologija. Zajednički uspeh.",
+    "p": "Digitalni Marketing, Izrada Web sajtova i aplikacija, SEO optimizacija",
+    "link": "Pogledajte naše usluge"
+  },
+  "About": {
+    "title": "O nama 2",
+    "about": "Saznajte više o našem timu. 2"
+  },
+  "LocaleSwitcher": {
+    "label": "Promeni jezik",
+    "locale": "{locale, select,sr {🇷🇸 srpski} de {🇩🇪 deutch} en {🇺🇸 english} other {Unknown}}"
+  },
+  "Navigation": {
+    "home": "Početna",
+    "about": "O nama",
+    "services": "Usluge"
+  },
+  "Manifest": {
+    "name": "Pistać Media | Digitalni Marketing, Izrada Web sajtova i aplikacija, SEO optimizacija"
+  },
+  "NotFoundPage": {
+    "description": "NOT FOUND DESCRIPTION"
+  }
+}
