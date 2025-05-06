@@ -35,25 +35,28 @@ export default function Navbars() {
     <>
       <div
         ref={topRef}
-        className={`bg-primary-dark flex w-full items-center justify-evenly py-2 text-white transition-opacity duration-500 ${
+        className={`bg-primary-dark flex w-full items-center justify-between py-2 text-white transition-opacity duration-500 sm:px-8 ${
           topVisible ? 'opacity-100' : 'pointer-events-none opacity-0'
         }`}
       >
         <Image
           src="/assets/icons/logo.png"
-          width={160}
-          height={80}
+          width={120}
+          height={40}
           alt="Logo"
           className="items-center"
         />
-        <p className="font-anton text-center">
+        <p className="font-bebas text-center">
           Pozovite nas:{' '}
-          <span className="text-secondary font-anton">
+          <span className="text-secondary">
             <br></br>065/0540004
           </span>
         </p>
         <Link href="/services">
-          <Button variant="outline" className="text-primary-dark">
+          <Button
+            variant="outline"
+            className="text-primary-dark font-bebas mr-2"
+          >
             Cene usluga
           </Button>
         </Link>

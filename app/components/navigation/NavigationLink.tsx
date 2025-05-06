@@ -11,17 +11,26 @@ export default function NavigationLink({
   ...rest
 }: ComponentProps<typeof Link>) {
   const selectedLayoutSegment = useSelectedLayoutSegment();
-  const pathname = selectedLayoutSegment ? `/${selectedLayoutSegment}` : '/';
-  const isActive = pathname === href;
 
+  const segmentMap: Record<string, string> = {
+    '(services-page)': 'services',
+    '(about-page)': 'about',
+  };
+
+  const normalizedSegment = selectedLayoutSegment
+    ? segmentMap[selectedLayoutSegment] || selectedLayoutSegment
+    : null;
+
+  const pathname = normalizedSegment ? `/${normalizedSegment}` : '/';
+  const isActive = pathname === href;
   return (
     <Link
       aria-current={isActive ? 'page' : undefined}
       className={clsx(
-        'font-anton inline-block px-2 py-3 transition-colors',
+        'font-bebas inline-block px-2 py-3 font-medium transition-colors',
         isActive
-          ? 'text-primary-900 font-semibold'
-          : 'hover:text-primary-600 text-primary-800 font-semibold',
+          ? 'text-primary-dark bg-primary-600 md:bg-transparent'
+          : 'hover:text-primary-600 text-primary-800',
       )}
       href={href}
       {...rest}

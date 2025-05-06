@@ -21,6 +21,12 @@ const roboto = localFont({
   weight: '100 200 300 400 500 600 700 800 900',
 });
 
+const bebas = localFont({
+  src: '../fonts/BebasNeueVF.ttf',
+  variable: '--font-bebas',
+  weight: '100 200 300 400 500 600 700 800 900',
+});
+
 export const metadata: Metadata = {
   title: 'Pistać Media',
   description:
@@ -40,7 +46,9 @@ export default async function LocaleLayout({
   }
   return (
     <html lang={locale}>
-      <body className={`${roboto.className} ${anton.variable} antialiased`}>
+      <body
+        className={`${roboto.className} ${anton.variable} ${bebas.variable} antialiased`}
+      >
         <NextIntlClientProvider>
           <Navbars />
           {children}
