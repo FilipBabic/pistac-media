@@ -34,13 +34,18 @@ export default function MobileNavigation() {
           <SheetTitle className="hidden">Navigation</SheetTitle>
           <SheetDescription className="hidden">Test</SheetDescription>
 
-          <Link href="/" className="bg-primary-dark mt-6 flex items-center">
-            <Image
-              src="/assets/icons/logo.png"
-              width={120}
-              height={40}
-              alt="Logo"
-            />
+          <Link href="/" className="bg-primary-dark mt-6 p-1">
+            <div style={{ position: 'relative', width: 120, height: 40 }}>
+              <Image
+                src="/assets/icons/logo.png"
+                alt="Logo"
+                fill
+                sizes="120px"
+                priority
+                style={{ objectFit: 'contain' }}
+                className="items-center"
+              />
+            </div>
           </Link>
 
           <div className="no-scrollbar flex h-[calc(100vh-80px)] flex-col justify-between overflow-y-auto">

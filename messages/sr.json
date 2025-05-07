@@ -48,6 +48,15 @@
       }
     }
   },
+  "ServicesPage": {
+    "Header": {
+      "badge": "Naše usluge",
+      "h1": "Digitalna rešenja po meri vašeg biznisa",
+      "p-1": "Pomažemo vam da izgradite snažno online prisustvo – od modernih web sajtova do moćnih aplikacija i digitalnog marketinga koji donosi rezultate.",
+      "button-1": "Kontaktiraj nas",
+      "button-2": "Pogledaj ponudu"
+    }
+  },
   "Header": {
     "h1": "Vaša ideja. Naša tehnologija. Zajednički uspeh.",
     "p": "Digitalni Marketing, Izrada Web sajtova i aplikacija, SEO optimizacija",

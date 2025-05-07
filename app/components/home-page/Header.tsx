@@ -17,7 +17,8 @@ export default function Header() {
         </p>
         <Button
           asChild
-          className="hover:bg-primary-800 rounded-lg bg-white px-8 py-8 text-xl font-bold text-green-700 transition duration-300 hover:text-white"
+          variant="outline"
+          className="hover:bg-primary rounded-lg bg-white px-4 py-6 text-lg font-bold text-gray-700 transition duration-300 hover:text-white"
         >
           <Link href="/about">{t('link')}</Link>
         </Button>

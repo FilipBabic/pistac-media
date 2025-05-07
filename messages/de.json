@@ -48,6 +48,15 @@
       }
     }
   },
+  "ServicesPage": {
+    "Header": {
+      "badge": "Unsere Leistungen",
+      "h1": "Digitale Lösungen, maßgeschneidert für Ihr Unternehmen",
+      "p-1": "Wir helfen Ihnen, eine starke Online-Präsenz aufzubauen – mit modernen Websites, leistungsstarken Anwendungen und ergebnisorientiertem digitalen Marketing.",
+      "button-1": "Kontaktieren Sie uns",
+      "button-2": "Angebot ansehen"
+    }
+  },
   "About": {
     "title": "Uber uns 2",
     "about": "Erfahren Sie mehr über unser Team. 2"

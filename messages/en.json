@@ -48,6 +48,15 @@
       }
     }
   },
+  "ServicesPage": {
+    "Header": {
+      "badge": "Our Services",
+      "h1": "Digital solutions tailored to your business",
+      "p-1": "We help you build a strong online presence – from modern websites to powerful applications and result-driven digital marketing.",
+      "button-1": "Contact us",
+      "button-2": "View our offer"
+    }
+  },
   "About": {
     "title": "About Us 2",
     "about": "Learn more about our team. 2"

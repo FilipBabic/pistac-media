@@ -39,13 +39,19 @@ export default function Navbars() {
           topVisible ? 'opacity-100' : 'pointer-events-none opacity-0'
         }`}
       >
-        <Image
-          src="/assets/icons/logo.png"
-          width={120}
-          height={40}
-          alt="Logo"
-          className="items-center"
-        />
+        <Link href="/">
+          <div style={{ position: 'relative', width: 120, height: 40 }}>
+            <Image
+              src="/assets/icons/logo.png"
+              alt="Logo"
+              fill
+              sizes="120px"
+              priority
+              style={{ objectFit: 'contain' }}
+              className="items-center"
+            />
+          </div>
+        </Link>
         <p className="font-bebas text-center">
           Pozovite nas:{' '}
           <span className="text-secondary">

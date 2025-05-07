@@ -1,13 +1,12 @@
-import { useTranslations } from 'next-intl';
-
 import PageLayout from '@/app/components/PageLayout';
+import Header from '@/app/components/services-page/Header';
 
 const ServicesPage = () => {
-  const t = useTranslations('About');
   return (
     <PageLayout>
-      <div>AboutPaget{t('title')}</div>
-      {/* <div>Description{t('description')}</div> */}
+      <div className="mx-auto w-full">
+        <Header />
+      </div>
     </PageLayout>
   );
 };
