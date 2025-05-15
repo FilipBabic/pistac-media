@@ -7,7 +7,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 
 import Navbars from '../components/navigation/Navbars';
-import Footer from '../components/Footer';
+import Footer from '../components/footer/Footer';
 
 const anton = localFont({
   src: '../fonts/AntonVF.ttf',

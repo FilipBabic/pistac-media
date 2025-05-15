@@ -57,6 +57,14 @@
       "button-2": "Angebot ansehen"
     }
   },
+  "AboutPage": {
+    "Header": {
+      "badge": "Was machen wir?",
+      "h2": "Wir entwickeln digitale Lösungen, die Bestand haben.",
+      "p-1": "Wir sind ein Team, das Kreativität, Technologie und Strategie vereint, um Marken beim Wachstum zu unterstützen und einen bleibenden Eindruck in der digitalen Welt zu hinterlassen."
+    }
+  },
+
   "About": {
     "title": "Uber uns 2",
     "about": "Erfahren Sie mehr über unser Team. 2"

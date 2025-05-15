@@ -57,6 +57,14 @@
       "button-2": "View our offer"
     }
   },
+  "AboutPage": {
+    "Header": {
+      "badge": "What do we do?",
+      "h2": "We build digital solutions that last.",
+      "p-1": "<p>We are a team that blends creativity, technology,</p> and strategy to help brands grow and make a lasting impact in the digital world."
+    }
+  },
+
   "About": {
     "title": "About Us 2",
     "about": "Learn more about our team. 2"

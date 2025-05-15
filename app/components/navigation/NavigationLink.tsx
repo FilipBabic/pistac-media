@@ -27,10 +27,10 @@ export default function NavigationLink({
     <Link
       aria-current={isActive ? 'page' : undefined}
       className={clsx(
-        'font-bebas inline-block px-2 py-3 font-medium transition-colors',
+        'font-bebas inline-block px-2 py-3 font-thin transition-colors',
         isActive
-          ? 'text-primary-dark bg-primary-600 md:bg-transparent'
-          : 'hover:text-primary-600 text-primary-800',
+          ? 'text-primary-dark md:bg-transparent'
+          : 'hover:text-primary-700 text-primary-800',
       )}
       href={href}
       {...rest}

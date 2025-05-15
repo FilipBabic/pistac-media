@@ -57,6 +57,75 @@
       "button-2": "Pogledaj ponudu"
     }
   },
+  "AboutPage": {
+    "Header": {
+      "badge": "Šta radimo?",
+      "h2": "Gradimo digitalna rešenja koja traju.",
+      "p-1": "<p>Da bi vaš brend bio primećen, angažovan i relevantan u digitalnom okruženju, neophodno je pratiti savremene trendove i kreirati raznolik, kvalitetan sadržaj. To uključuje dinamične <b>story formate, informativne i vizuelno privlačne objave</b>, kao i short-form video sadržaj koji podstiče interakciju. </p><p>Prisustvo na ključnim platformama kao što su Instagram, TikTok, LinkedIn, Twitter i Pinterest zavisi od specifičnosti vaše industrije i ciljne publike – a upravo tu dolazimo mi.</p><p>Naš tim preuzima kompletno upravljanje vašim prisustvom na društvenim mrežama: od strategije i kreiranja sadržaja, do analitike i svakodnevne komunikacije sa publikom. Vi se fokusirate na biznis – mi se bavimo digitalom.</p>"
+    },
+    "Mission": {
+      "badge": "Naša misija",
+      "h2": "Pomažemo brendovima da autentično komuniciraju, rastu kroz inovacije i ostvare vidljive rezultate u digitalnom svetu.",
+      "p-1": "<p>Naša misija je da vam pomognemo da izgradite snažno online prisustvo koje će vas izdvojiti od konkurencije. Verujemo u snagu digitalnog marketinga i tehnologije da transformišu biznise i donesu rezultate.</p><p>Naš tim stručnjaka je posvećen pružanju rešenja koja su prilagođena vašim potrebama i ciljevima. Radimo zajedno sa vama kako bismo osigurali da vaša ideja postane stvarnost.</p>",
+      "card-1": {
+        "title": "Autentičnost na prvom mestu",
+        "content": "Gradimo sadržaj koji verno oslikava identitet vašeg brenda i gradi poverenje sa publikom."
+      },
+      "card-2": {
+        "title": "Inovacije koje prave razliku",
+        "content": "Pratimo najnovije trendove i tehnologije kako bismo ponudili kreativna i efikasna digitalna rešenja."
+      },
+      "card-3": {
+        "title": "Prilagođene strategije",
+        "content": "Svaka kampanja je pažljivo oblikovana u skladu sa vašim poslovnim ciljevima, nišom i ciljnom publikom."
+      },
+      "card-4": {
+        "title": "Interakcija sa svrhom",
+        "content": "Podstičemo angažovanje koje inspiriše, informiše i doprinosi izgradnji pozitivne zajednice oko vašeg brenda."
+      },
+      "card-5": {
+        "title": "Jasna i transparentna komunikacija",
+        "content": "Otvoren dijalog, redovno izveštavanje i saradnja su temelj svakog uspešnog projekta."
+      },
+      "card-6": {
+        "title": "Društvena odgovornost",
+        "content": "Kreiramo kampanje koje promovišu pozitivne vrednosti i podstiču angažman za društveno korisne ciljeve."
+      },
+      "card-7": {
+        "title": "Edukacija klijenata",
+        "content": "Pružamo uvid u digitalne procese kako biste donosili informisane odluke i dugoročno napredovali."
+      }
+    },
+    "Vision": {
+      "badge": "Naša vizija",
+      "h2": "Naša vizija je stvaranje održivog, inkluzivnog i kreativnog digitalnog prostora, u kojem brendovi ne samo da rastu, već ostavljaju pozitivan trag u zajednici i kulturi.",
+      "p-1": "<p>Klijenti su srce svega što radimo. Gradimo dugoročne odnose zasnovane na poverenju, prilagođavamo se njihovim potrebama i pružamo rešenja koja inspirišu, pomeraju granice i ističu se u digitalnom svetu.</p><p> Verujemo da vizuelna privlačnost, društvena odgovornost, kulturna relevantnost i kreativnost nisu opcije, već standard koji svaki brend zaslužuje.</p>",
+      "card-1": {
+        "title": "Fokus na klijentu",
+        "content": "U središtu svakog projekta nalazi se klijent – njegovi ciljevi, potrebe i povratne informacije. Naš pristup je dinamičan, personalizovan i strateški usmeren ka rezultatima."
+      },
+      "card-2": {
+        "title": "Vizuelno privamljive kampanje",
+        "content": "Estetika je ključna u digitalnom svetu. Kreiramo kampanje koje ne samo da privlače pažnju, već i ostaju upamćene – kroz boje, kompoziciju i poruku."
+      },
+      "card-3": {
+        "title": "Dugotrajni partnerski odnosi",
+        "content": "Verujemo u saradnje koje traju. Uz doslednu komunikaciju i podršku, pomažemo klijentima da dugoročno rastu i razvijaju svoje prisustvo."
+      },
+      "card-4": {
+        "title": "Inkluzivne saradnje",
+        "content": "Otvoreni smo za saradnju sa brendovima iz različitih industrija i kultura, gradeći mostove kroz raznovrsnost i globalni uticaj."
+      },
+      "card-5": {
+        "title": "Saradnja sa influenserima",
+        "content": "Razvijamo partnerske odnose sa kulturnim i društvenim kreatorima sadržaja kako bismo proširili doseg i relevantnost svake kampanje."
+      },
+      "card-6": {
+        "title": "Inspirisanje kreativnosti",
+        "content": "Kreativnost podstičemo kako u našem timu, tako i kod klijenata. Gradimo digitalna okruženja koja motivišu na inovaciju i slobodno izražavanje."
+      }
+    }
+  },
   "Header": {
     "h1": "Vaša ideja. Naša tehnologija. Zajednički uspeh.",
     "p": "Digitalni Marketing, Izrada Web sajtova i aplikacija, SEO optimizacija",

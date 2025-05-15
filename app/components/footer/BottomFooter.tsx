@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
-export default function Footer() {
+export default function BottomFooter() {
   return (
-    <footer className="bg-primary-dark mt-auto text-white">
+    <div className="bg-primary-dark mt-auto text-white">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between px-4 py-6 md:flex-row">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Pistać Media. All rights reserved.
@@ -19,6 +19,6 @@ export default function Footer() {
           </Link>
         </div>
       </div>
-    </footer>
+    </div>
   );
 }

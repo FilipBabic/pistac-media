@@ -1,13 +1,17 @@
-import { useTranslations } from 'next-intl';
-
+import { Separator } from '@/components/ui/separator';
 import PageLayout from '@/app/components/PageLayout';
+import ReusableSection from '@/app/components/reusable/ReusableSection';
 
 const AboutPage = () => {
-  const t = useTranslations('About');
   return (
     <PageLayout>
-      <div>AboutPaget{t('title')}</div>
-      {/* <div>Description{t('description')}</div> */}
+      <ReusableSection
+        translation="AboutPage.Header"
+        buttons={false}
+        image={true}
+        imageUrl="/assets/images/digital-marketing-team.png"
+      />
+      <Separator />
     </PageLayout>
   );
 };
