@@ -9,11 +9,8 @@ type Props = {
   params: { slug: string };
 };
 
-export default async function BlogDetail(props: Props) {
-  const { params } = props;
-
-  const awaitedParams = await params;
-  const slug = awaitedParams.slug;
+export default async function BlogDetail({ params }: Props) {
+  const { slug } = params;
 
   const t = await getTranslations('blog');
 
