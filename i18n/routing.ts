@@ -27,5 +27,15 @@ export const routing = defineRouting({
       en: '/blog',
       sr: '/blog',
     },
+    '/contact': {
+      de: '/contact',
+      en: '/contact',
+      sr: '/contact',
+    },
+    '/prices': {
+      de: '/preise',
+      en: '/prices',
+      sr: '/cene-usluga',
+    },
   },
 });

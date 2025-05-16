@@ -20,7 +20,7 @@ export default function Header() {
           variant="outline"
           className="hover:bg-primary rounded-lg bg-white px-4 py-6 text-lg font-bold text-gray-700 transition duration-300 hover:text-white"
         >
-          <Link href="/about">{t('link')}</Link>
+          <Link href="/contact">{t('link')}</Link>
         </Button>
 
         <p className="mt-4 text-sm text-white">{t('p-2')}</p>

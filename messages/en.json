@@ -64,7 +64,39 @@
       "p-1": "<p>We are a team that blends creativity, technology,</p> and strategy to help brands grow and make a lasting impact in the digital world."
     }
   },
-
+  "blog": {
+    "kako-da-unapredim-interakciju-sa-pratiocima": {
+      "title": "How to Improve Engagement with Followers?",
+      "excerpt": "<p>In the era of digital saturation, user attention is currency. It's not all about follower count—the key to success on social media lies in engagement. If your followers aren't liking, commenting, or sharing your content, platform algorithms will automatically lower your visibility. Therefore, it's crucial that your communication with the audience is <b>two-way, authentic, and strategically planned</b>.</p><p>The first step towards stronger engagement is knowing your target audience. Who are your followers? What interests them? When are they most active? By utilizing insights from platforms like Instagram Insights or TikTok Analytics, you can tailor content precisely to their interests. If you post what people want to see and hear, they're more likely to respond.</p><p>Next, focus on calls to action (CTAs). Don't assume someone will comment—invite them to! Ask a question at the end of a post, start a poll in stories, organize a giveaway, or simply ask: “What do you think about this?” People love to be involved, but often need explicit prompts.</p><p>The next important step is consistency. Engagement doesn't build overnight. It requires regular posting of quality content—visuals, videos, behind-the-scenes stories, educational material. Every interaction with followers is an opportunity to strengthen your brand connection. Use templates, posting calendars, and automation to maintain rhythm.</p><p>Finally, <b>respond to comments and messages.</b> Two-way communication doesn't just mean 'talking to them'—it means listening and replying. People who receive a response feel seen and respected, which directly impacts loyalty and future engagement. Even a simple 'Thank you!' can make a difference.</p>",
+      "description": "Learn how to enhance engagement with your social media followers through practical tips on understanding your target audience, using calls to action, consistent posting, and responding to comments. The key to success isn't the number of followers, but the quality of communication with them."
+    },
+    "kako-da-unapredim-posecenost-mojih-naloga": {
+      "title": "How to Increase Traffic to My Accounts?",
+      "excerpt": "<h>1. Optimize Your Profile</h><p>Before anyone follows your account, their first contact is through your profile—picture, bio, link, and highlights. A professional profile photo, clearly defined bio with key information, and a call to action (e.g., “Follow for more tips”) significantly influence whether someone stays and explores your content.</p><h>2. Create Shareable Content</h><p>Content that provides value has the highest potential for sharing. These are educational posts, mini-guides, tips, motivational messages, and entertaining videos—but tailored to your niche. When people share your content, they recommend you to their network, which automatically increases profile traffic.</p><h>3. Use the Right Hashtags and Locations</h><p>Smart hashtag selection can quadruple post visibility. Instead of generic #love or #instadaily, use niche hashtags targeting a specific audience. Locations are also key—especially if you offer local services or target a specific region.</p><h>4. Collaborate and Tag Other Accounts</h><p>Partner with profiles that have a similar target audience. Guest posts, joint videos, interviews, or mutual tagging in stories can open doors to a completely new audience. It's important that collaborations are authentic and mutually beneficial.</p><h>5. Analyze and Adjust Strategy</h><p>Using tools like Instagram Insights or TikTok Analytics helps you identify which types of content bring the most visits. Based on data about posting times, topics, format (image, video, reels), you can continuously improve your strategy and focus on what works.</p>",
+      "description": "Discover effective ways to increase traffic to your social media profiles through profile optimization, creating shareable content, smart use of hashtags, collaborations with other accounts, and data analysis for continuous improvement."
+    },
+    "kako-da-unapredim-prodaju-mojih-usluga": {
+      "title": "How to Improve Sales of My Services?",
+      "excerpt": "<p>In the digital era, quality service alone isn't enough to drive sales. Consumers seek experience, trust, and value—even before contacting you. That's why it's important that your online presence and communication are strategically designed to increase sales.</p><h>1. Clearly Define the Value You Offer</h><p>The first thing a potential client should understand is—why you? Your profile, website, or portfolio must clearly communicate the problems you solve and the specific benefits users gain from your service. Instead of generic 'web design', say: 'I create websites that bring you more clients and better reputation.'</p><h>2. Build Trust Through Content</h><p>People buy from those they trust. Create educational content that showcases your expertise: tutorials, mini case studies, answers to frequently asked questions, and reviews from satisfied clients. Video formats (e.g., “before/after” work showcases) particularly increase credibility and conversion.</p><h>3. Optimize the User Journey</h><p>Sales must be easy and intuitive. If a user can't quickly understand what you offer, how much it costs, and how to contact you—they'll lose interest. A link in bio, simple contact form, clear pricing, and CTAs like 'Schedule a free consultation' can drastically increase inquiries.</p><h>4. Actively Use Social Media as a Sales Channel</h><p>Don't just post 'nice content'—include offers, limited-time deals, service packages, and calls for direct communication. Through stories, posts, and reels, present exactly what the client gets. Communication should be personal, fast, and solution-focused.</p><h>5. Increase Visibility Through Paid Advertising</h><p>Organic growth is important, but if you want faster results, invest in targeted marketing. Facebook and Instagram ads allow you to precisely target people who need your service. Test multiple ad variations, optimize them through metrics, and allocate budget where it yields returns.</p>",
+      "description": "Discover effective ways to increase traffic to your social media profiles through profile optimization, creating shareable content, smart use of hashtags, collaborations with other accounts, and data analysis for continuous improvement."
+    }
+  },
+  "ContactPage": {
+    "Header": {
+      "badge": "Pistac Media",
+      "h2": "Contact Us",
+      "p-1": "We’re always here to help. Feel free to reach out via the form or directly through our email.",
+      "button-1": "Send a Message",
+      "button-2": "View Our Services"
+    }
+  },
+  "PricesPage": {
+    "Header": {
+      "badge": "Prices",
+      "h2": "Our prices are tailored to your needs",
+      "p-1": "Each service is unique, and so are our prices. Contact us for an exact quote."
+    }
+  },
   "About": {
     "title": "About Us 2",
     "about": "Learn more about our team. 2"
@@ -76,7 +108,10 @@
   "Navigation": {
     "home": "Home",
     "about": "About Us",
-    "services": "Services"
+    "services": "Services",
+    "contact": "Contact",
+    "prices": "Prices",
+    "call": "call us"
   },
   "NotFoundPage": {
     "description": "NOT FOUND DESCRIPTION"

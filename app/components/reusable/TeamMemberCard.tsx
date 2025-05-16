@@ -28,10 +28,10 @@ export default function TeamMemberCard({
           />
         </div>
         <div>
-          <h3 className="text-lg font-semibold text-white">{name}</h3>
-          <p className="text-muted-foreground text-sm">{title}</p>
+          <h3 className="text-lg font-semibold text-green-700">{name}</h3>
+          <p className="text-sm text-gray-400">{title}</p>
         </div>
-        <p className="text-sm text-gray-400">{description}</p>
+        <p className="text-left text-sm text-gray-700">{description}</p>
       </CardContent>
     </Card>
   );

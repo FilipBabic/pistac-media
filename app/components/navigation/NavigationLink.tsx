@@ -29,8 +29,8 @@ export default function NavigationLink({
       className={clsx(
         'font-bebas inline-block px-2 py-3 font-thin transition-colors',
         isActive
-          ? 'text-primary-dark md:bg-transparent'
-          : 'hover:text-primary-700 text-primary-800',
+          ? 'text-green-700 md:bg-transparent'
+          : 'text-green-600 hover:text-green-500',
       )}
       href={href}
       {...rest}

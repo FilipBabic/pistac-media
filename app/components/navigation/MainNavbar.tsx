@@ -20,6 +20,9 @@ export default function MainNavbar() {
             {t('services').toUpperCase()}
           </NavigationLink>
           <NavigationLink href="/blog">BLOG</NavigationLink>
+          <NavigationLink href="/contact">
+            {t('contact').toUpperCase()}
+          </NavigationLink>
         </div>
       </div>
       <LocaleSwitcher />

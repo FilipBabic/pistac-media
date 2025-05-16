@@ -15,15 +15,13 @@ export default function ReusableTransparentCard({
   return (
     <Card className="bg-secondary h-full rounded-2xl border-0 pt-4 shadow-md">
       <CardContent className="flex flex-col items-start space-y-3">
-        <div className="bg-primary-dark rounded-xl p-2">
+        <div className="rounded-xl bg-green-700 p-2">
           <Icon className="h-6 w-6 text-white" />
         </div>
-        <h3 className="font-bebas text-primary-900 text-lg font-semibold">
+        <h3 className="font-bebas text-lg font-semibold text-green-700">
           {t('title')}
         </h3>
-        <p className="text-left text-base text-gray-700 md:text-lg">
-          {t('content')}
-        </p>
+        <p className="text-left text-base text-gray-600">{t('content')}</p>
       </CardContent>
     </Card>
   );

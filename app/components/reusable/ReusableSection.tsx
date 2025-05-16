@@ -21,11 +21,11 @@ export default function ReusableSection({
     <section className="gap-6 py-10 md:py-20">
       <div className="mb-12 flex flex-col items-center justify-between gap-8 text-left text-gray-700 md:flex-row">
         <div className="w-full text-left md:w-2/3">
-          <Badge className="bg-primary-400 mb-4 text-base">{t('badge')}</Badge>
+          <Badge className="mb-4 bg-green-700 text-base">{t('badge')}</Badge>
           <h2 className="font-bebas text-3xl font-bold text-white md:text-5xl">
             {t('h2')}
           </h2>
-          <div className="mt-4 max-w-2xl text-left text-base text-[#1b4a31] md:text-lg">
+          <div className="mt-4 max-w-2xl text-left text-base text-gray-600 md:text-lg">
             {t.rich('p-1', {
               p: (chunks) => <p className="mt-4">{chunks}</p>,
               b: (chunks) => <b>{chunks}</b>,
@@ -33,12 +33,12 @@ export default function ReusableSection({
           </div>
           {buttons && (
             <div className="mt-6 flex flex-row justify-center gap-4 text-gray-700 sm:justify-start">
-              <Link href="/kontakt">
+              <Link href="/contact">
                 <Button variant="outline" className="hover:bg-primary bg-white">
                   {t('button-1')}
                 </Button>
               </Link>
-              <Link href="#ponuda">
+              <Link href="/services">
                 <Button variant="outline" className="hover:bg-primary bg-white">
                   {t('button-2')}
                 </Button>

@@ -2,11 +2,14 @@
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { Button } from '@/components/ui/button';
 
 import MainNavbar from './MainNavbar';
+import NavigationLink from './NavigationLink';
 export default function Navbars() {
+  const t = useTranslations('Navigation');
   const [topVisible, setTopVisible] = useState(true);
   const topRef = useRef<HTMLDivElement>(null);
 
@@ -35,7 +38,7 @@ export default function Navbars() {
     <>
       <div
         ref={topRef}
-        className={`bg-primary-dark flex w-full items-center justify-between py-2 text-white transition-opacity duration-500 sm:px-8 ${
+        className={`flex w-full items-center justify-between bg-green-800 py-2 text-white transition-opacity duration-500 sm:px-8 ${
           topVisible ? 'opacity-100' : 'pointer-events-none opacity-0'
         }`}
       >
@@ -53,19 +56,19 @@ export default function Navbars() {
           </div>
         </Link>
         <p className="font-bebas text-center">
-          Pozovite nas:{' '}
+          {t('call').toUpperCase()}{' '}
           <span className="text-secondary">
-            <br></br>065/0540004
+            <br></br>+381650540004
           </span>
         </p>
-        <Link href="/services">
+        <NavigationLink href="/prices">
           <Button
             variant="outline"
             className="text-primary-dark font-bebas mr-2"
           >
-            Cene usluga
+            {t('prices').toUpperCase()}
           </Button>
-        </Link>
+        </NavigationLink>
       </div>
 
       <div

@@ -26,15 +26,12 @@ export default function MobileNavigation() {
           className="text-primary-dark mt-2 sm:hidden"
         />
       </SheetTrigger>
-      <SheetContent
-        side="left"
-        className="from-primary-400 to-primary border-none bg-gradient-to-r text-white"
-      >
+      <SheetContent side="left" className="bg-secondary border-none text-white">
         <SheetHeader>
           <SheetTitle className="hidden">Navigation</SheetTitle>
           <SheetDescription className="hidden">Test</SheetDescription>
 
-          <Link href="/" className="bg-primary-dark mt-6 p-1">
+          <Link href="/" className="mt-6 bg-green-700 p-1">
             <div style={{ position: 'relative', width: 120, height: 40 }}>
               <Image
                 src="/assets/icons/logo.png"
@@ -67,6 +64,11 @@ export default function MobileNavigation() {
               </SheetClose>
               <SheetClose asChild>
                 <NavigationLink href="/blog">BLOG</NavigationLink>
+              </SheetClose>
+              <SheetClose asChild>
+                <NavigationLink href="/contact">
+                  {t('contact').toUpperCase()}
+                </NavigationLink>
               </SheetClose>
             </section>
           </div>

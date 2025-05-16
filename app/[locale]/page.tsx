@@ -19,6 +19,7 @@ const Home = () => {
         <Separator />
         <InputWithButton />
         <MainAccordition />
+        <Separator className="mb-10" />
       </div>
     </PageLayout>
   );
