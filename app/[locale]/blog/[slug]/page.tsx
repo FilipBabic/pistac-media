@@ -5,12 +5,12 @@ import { getTranslations } from 'next-intl/server';
 import blogs from '@/data/blogs.json';
 import PageLayout from '@/app/components/PageLayout';
 
-type Props = {
-  params: { slug: string };
-};
-
-export default async function BlogDetail({ params }: Props) {
-  const { slug } = params;
+export default async function BlogDetail({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
 
   const t = await getTranslations('blog');
 
