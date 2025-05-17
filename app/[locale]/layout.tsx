@@ -1,4 +1,5 @@
 import '../globals.css';
+import { Analytics } from '@vercel/analytics/next';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
@@ -54,6 +55,7 @@ export default async function LocaleLayout({
           {children}
           <Footer />
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );

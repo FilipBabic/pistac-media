@@ -159,15 +159,6 @@
       "p-1": "Svaka usluga je jedinstvena, a tako i naše cene. Kontaktirajte nas za tačnu ponudu."
     }
   },
-  "Header": {
-    "h1": "Vaša ideja. Naša tehnologija. Zajednički uspeh.",
-    "p": "Digitalni Marketing, Izrada Web sajtova i aplikacija, SEO optimizacija",
-    "link": "Pogledajte naše usluge"
-  },
-  "About": {
-    "title": "O nama 2",
-    "about": "Saznajte više o našem timu. 2"
-  },
   "LocaleSwitcher": {
     "label": "Promeni jezik",
     "locale": "{locale, select,sr {🇷🇸 srpski} de {🇩🇪 deutch} en {🇺🇸 english} other {Unknown}}"
@@ -184,6 +175,8 @@
     "name": "Pistać Media | Digitalni Marketing, Izrada Web sajtova i aplikacija, SEO optimizacija"
   },
   "NotFoundPage": {
-    "description": "NOT FOUND DESCRIPTION"
+    "title": "Stranica nije pronađena",
+    "description": "Nažalost, stranica koju tražite nije pronađena.",
+    "goHome": "Vrati se na početnu"
   }
 }

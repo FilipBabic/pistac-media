@@ -97,10 +97,6 @@
       "p-1": "Each service is unique, and so are our prices. Contact us for an exact quote."
     }
   },
-  "About": {
-    "title": "About Us 2",
-    "about": "Learn more about our team. 2"
-  },
   "LocaleSwitcher": {
     "label": "Change Language",
     "locale": "{locale, select,sr {🇷🇸 srpski} de {🇩🇪 deutch} en {🇺🇸 english} other {Unknown}}"
@@ -114,6 +110,8 @@
     "call": "call us"
   },
   "NotFoundPage": {
-    "description": "NOT FOUND DESCRIPTION"
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for could not be found.",
+    "goHome": "Go Back Home"
   }
 }

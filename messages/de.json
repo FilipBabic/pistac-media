@@ -97,10 +97,6 @@
       "p-1": "Jede Dienstleistung ist einzigartig – genauso wie unsere Preise. Kontaktieren Sie uns für ein genaues Angebot."
     }
   },
-  "About": {
-    "title": "Uber uns 2",
-    "about": "Erfahren Sie mehr über unser Team. 2"
-  },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
     "locale": "{locale, select,sr {🇷🇸 srpski} de {🇩🇪 deutch} en {🇺🇸 english} other {Unknown}}"
@@ -114,6 +110,8 @@
     "call": "Rufen Sie uns an"
   },
   "NotFoundPage": {
-    "description": "NOT FOUND DESCRIPTION"
+    "title": "Seite nicht gefunden",
+    "description": "Entschuldigung, die Seite, die Sie suchen, konnte nicht gefunden werden.",
+    "goHome": "Zurück zur Startseite"
   }
 }
