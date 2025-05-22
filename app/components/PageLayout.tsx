@@ -6,7 +6,7 @@ type Props = {
 
 export default function PageLayout({ children }: Props) {
   return (
-    <div className="bg-primary-100 relative flex min-h-screen grow flex-col overflow-x-hidden">
+    <div className="bg-primary-dark relative flex min-h-screen grow flex-col overflow-x-hidden">
       <div className="absolute inset-0 overflow-hidden pt-[50px]">
         <div className="from-primary via-primary-dark absolute top-1 left-0 size-[20500px] translate-x-[-47.5%] rounded-full bg-gradient-to-b" />
       </div>

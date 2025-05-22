@@ -22,6 +22,11 @@ export const routing = defineRouting({
       en: '/services',
       sr: '/usluge',
     },
+    '/portfolio': {
+      de: '/portfolio',
+      en: '/portfolio',
+      sr: '/portfolio',
+    },
     '/blog': {
       de: '/blog',
       en: '/blog',

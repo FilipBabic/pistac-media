@@ -23,7 +23,7 @@ export default function MobileNavigation() {
         <SquareMenu
           width={36}
           height={36}
-          className="text-primary-dark mt-2 sm:hidden"
+          className="text-primary mt-2 sm:hidden"
         />
       </SheetTrigger>
       <SheetContent side="left" className="bg-secondary border-none text-white">
@@ -34,7 +34,7 @@ export default function MobileNavigation() {
           <Link href="/" className="mt-6 bg-green-700 p-1">
             <div style={{ position: 'relative', width: 120, height: 40 }}>
               <Image
-                src="/assets/icons/logo.png"
+                src="/assets/icons/pistac-media-logo.png"
                 alt="Logo"
                 fill
                 sizes="120px"
@@ -61,6 +61,9 @@ export default function MobileNavigation() {
                 <NavigationLink href="/services">
                   {t('services').toUpperCase()}
                 </NavigationLink>
+              </SheetClose>
+              <SheetClose asChild>
+                <NavigationLink href="/portfolio">PORTFOLIO</NavigationLink>
               </SheetClose>
               <SheetClose asChild>
                 <NavigationLink href="/blog">BLOG</NavigationLink>

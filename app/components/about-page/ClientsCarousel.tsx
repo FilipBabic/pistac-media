@@ -22,6 +22,10 @@ const logos = [
     src: '/assets/icons/logo.png',
     href: 'https://client1.com',
   },
+  {
+    src: '/assets/icons/pistac-media-logo.png',
+    href: 'https://client1.com',
+  },
 ];
 
 export default function ClientsCarousel() {

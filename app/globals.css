@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --color-primary: #93c572;
+  --color-primary: #f1efe7;
   --color-primary-500: #a3d180;
   --color-primary-400: #b3dd8e;
   --color-primary-300: #c3e99c;
@@ -15,8 +15,8 @@
   --color-primary-700: #739d51;
   --color-primary-800: #638941;
   --color-primary-900: #537531;
-  --color-primary-dark: #435f21;
-  --color-secondary: #d3f5aa;
+  --color-primary-dark: #545454;
+  --color-secondary: #b6c687;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-roboto: var(--font-roboto);

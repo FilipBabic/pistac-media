@@ -19,4 +19,9 @@ export const routes = {
     en: '/prices',
     de: '/preise',
   },
+  portfolio: {
+    sr: '/portfolio',
+    en: '/portfolio',
+    de: '/portfolio',
+  },
 };

@@ -9,6 +9,7 @@ import { routing } from '@/i18n/routing';
 
 import Navbars from '../components/navigation/Navbars';
 import Footer from '../components/footer/Footer';
+import PopupDialog from '../components/PopupDialog';
 
 const anton = localFont({
   src: '../fonts/AntonVF.ttf',
@@ -25,6 +26,12 @@ const roboto = localFont({
 const bebas = localFont({
   src: '../fonts/BebasNeueVF.ttf',
   variable: '--font-bebas',
+  weight: '100 200 300 400 500 600 700 800 900',
+});
+
+const poppins = localFont({
+  src: '../fonts/PoppinsVF.ttf',
+  variable: '--font-poppins',
   weight: '100 200 300 400 500 600 700 800 900',
 });
 
@@ -48,13 +55,14 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${roboto.className} ${anton.variable} ${bebas.variable} antialiased`}
+        className={`${poppins.className} ${roboto.variable} ${anton.variable} ${bebas.variable} antialiased`}
       >
         <NextIntlClientProvider>
           <Navbars />
           {children}
           <Footer />
         </NextIntlClientProvider>
+        <PopupDialog />
         <Analytics />
       </body>
     </html>

@@ -12,7 +12,7 @@ const AboutPage = () => {
         translation="AboutPage.Header"
         buttons={false}
         image={true}
-        imageUrl="/assets/images/digital-marketing-ilustration.png"
+        imageUrl="/assets/images/woman-with-laptop-1.jpg"
       />
       <Separator />
       <ReusableSection
