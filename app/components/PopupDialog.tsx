@@ -10,6 +10,8 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 
+import { SubscribeForm } from './SubscribeForm';
+
 export default function PopupDialog() {
   const [show, setShow] = useState(false);
 
@@ -21,15 +23,13 @@ export default function PopupDialog() {
   return (
     <Dialog open={show} onOpenChange={setShow}>
       <DialogContent>
-        <DialogDescription className="hidden">
-          Popup form for email subscribe
-        </DialogDescription>
+        <DialogDescription>Hello There!</DialogDescription>
         <DialogHeader>
-          <DialogTitle>Hello there!</DialogTitle>
+          <DialogTitle>
+            Subscribe and Stay Ahead with Exclusive Insights
+          </DialogTitle>
         </DialogHeader>
-        <div className="text-sm text-gray-600">
-          This popup appeared 1 minute after you landed on the site.
-        </div>
+        <SubscribeForm />
       </DialogContent>
     </Dialog>
   );

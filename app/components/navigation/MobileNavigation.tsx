@@ -26,13 +26,16 @@ export default function MobileNavigation() {
           className="text-primary mt-2 sm:hidden"
         />
       </SheetTrigger>
-      <SheetContent side="left" className="bg-secondary border-none text-white">
+      <SheetContent
+        side="left"
+        className="bg-primary-dark text-primary border-none"
+      >
         <SheetHeader>
           <SheetTitle className="hidden">Navigation</SheetTitle>
           <SheetDescription className="hidden">Test</SheetDescription>
 
-          <Link href="/" className="mt-6 bg-green-700 p-1">
-            <div style={{ position: 'relative', width: 120, height: 40 }}>
+          <Link href="/" className="mt-6">
+            <div style={{ position: 'relative', width: 120, height: 60 }}>
               <Image
                 src="/assets/icons/pistac-media-logo.png"
                 alt="Logo"

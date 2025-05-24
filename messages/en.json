@@ -59,9 +59,80 @@
   },
   "AboutPage": {
     "Header": {
-      "badge": "What do we do?",
-      "h2": "We build digital solutions that last.",
-      "p-1": "<p>We are a team that blends creativity, technology,</p> and strategy to help brands grow and make a lasting impact in the digital world."
+      "badge": "What we do",
+      "h2": "We build lasting digital solutions.",
+      "p-1": "<p>To make your brand visible, engaging, and relevant in the digital space, it's essential to follow current trends and create diverse, high-quality content. This includes dynamic <b>story formats, informative and visually appealing posts</b>, and short-form video content that drives interaction.</p><p>Presence on key platforms like Instagram, TikTok, LinkedIn, Twitter, and Pinterest depends on your industry and target audience – and that’s where we come in.</p><p>Our team manages your entire social media presence: from strategy and content creation to analytics and daily audience communication. You focus on your business – we handle the digital.</p>"
+    },
+    "Mission": {
+      "badge": "Our Mission",
+      "h2": "We help brands communicate authentically, grow through innovation, and achieve measurable results in the digital world.",
+      "p-1": "<p>Our mission is to help you build a strong online presence that sets you apart from the competition. We believe in the power of digital marketing and technology to transform businesses and deliver results.</p><p>Our team of experts is committed to providing solutions tailored to your needs and goals. We work closely with you to turn your ideas into reality.</p>",
+      "card-1": {
+        "title": "Authenticity first",
+        "content": "We create content that truly reflects your brand identity and builds trust with your audience."
+      },
+      "card-2": {
+        "title": "Innovations that make a difference",
+        "content": "We stay ahead of trends and technologies to deliver creative and effective digital solutions."
+      },
+      "card-3": {
+        "title": "Tailored strategies",
+        "content": "Every campaign is carefully crafted to align with your business goals, niche, and target audience."
+      },
+      "card-4": {
+        "title": "Meaningful interaction",
+        "content": "We encourage engagement that inspires, informs, and builds a positive community around your brand."
+      },
+      "card-5": {
+        "title": "Clear and transparent communication",
+        "content": "Open dialogue, regular reporting, and collaboration form the foundation of every successful project."
+      },
+      "card-6": {
+        "title": "Social responsibility",
+        "content": "We create campaigns that promote positive values and encourage action for socially beneficial causes."
+      },
+      "card-7": {
+        "title": "Client education",
+        "content": "We provide insight into digital processes so you can make informed decisions and achieve long-term growth."
+      }
+    },
+    "Vision": {
+      "badge": "Our Vision",
+      "h2": "Our vision is to create a sustainable, inclusive, and creative digital space where brands not only grow, but leave a positive mark on the community and culture.",
+      "p-1": "<p>Clients are at the heart of everything we do. We build long-term relationships based on trust, adapt to their needs, and deliver solutions that inspire, push boundaries, and stand out in the digital world.</p><p>We believe visual appeal, social responsibility, cultural relevance, and creativity are not options – they are the standards every brand deserves.</p>",
+      "card-1": {
+        "title": "Client-centric approach",
+        "content": "At the core of every project is the client – their goals, needs, and feedback. Our approach is dynamic, personalized, and strategically results-driven."
+      },
+      "card-2": {
+        "title": "Visually appealing campaigns",
+        "content": "Aesthetics are key in the digital world. We create campaigns that not only grab attention but leave a lasting impression – through color, composition, and message."
+      },
+      "card-3": {
+        "title": "Long-term partnerships",
+        "content": "We believe in partnerships that endure. With consistent communication and support, we help clients grow and evolve over time."
+      },
+      "card-4": {
+        "title": "Inclusive collaborations",
+        "content": "We welcome partnerships with brands from diverse industries and cultures, building bridges through diversity and global influence."
+      },
+      "card-5": {
+        "title": "Influencer partnerships",
+        "content": "We develop partnerships with cultural and social content creators to expand each campaign’s reach and relevance."
+      },
+      "card-6": {
+        "title": "Inspiring creativity",
+        "content": "We foster creativity within our team and among clients. We build digital environments that encourage innovation and self-expression."
+      }
+    },
+    "Clients": {
+      "h1": "Our Clients"
+    },
+    "OurTeam": {
+      "badge": "Our team",
+      "description-1": "Drives brand awareness and lead generation through strategic content, SEO, social media, and paid campaigns.",
+      "description-2": "Builds and maintains scalable server-side logic, APIs, and databases to support seamless application performance.",
+      "description-3": "Develops modern user interfaces and optimizes websites for search engines, ensuring better visibility and increased traffic through effective SEO strategies."
     }
   },
   "blog": {
@@ -108,6 +179,18 @@
     "contact": "Contact",
     "prices": "Prices",
     "call": "call us"
+  },
+  "Footer": {
+    "TopFooter": {
+      "contact-us": "Contact us",
+      "link": "Send a message to our team"
+    },
+    "BottomFooter": {
+      "rights": "All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "contact": "Contact us"
+    }
   },
   "NotFoundPage": {
     "title": "Page Not Found",

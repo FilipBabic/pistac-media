@@ -15,7 +15,9 @@ export default function ServicesSection() {
   return (
     <section className="gap-6 py-10 md:py-20">
       <div className="mb-12">
-        <Badge className="mb-4 text-base">{t('badge')}</Badge>
+        <Badge className="bg-secondary text-primary-dark mb-4 text-base">
+          {t('badge')}
+        </Badge>
         <h2 className="text-3xl font-bold text-white md:text-5xl">{t('h2')}</h2>
         <p className="mt-4 max-w-2xl text-lg text-gray-700 md:text-xl">
           {t('p-1')}

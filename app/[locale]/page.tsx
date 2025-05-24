@@ -2,7 +2,6 @@ import { Separator } from '@/components/ui/separator';
 
 import Header from '../components/home-page/Header';
 import PageLayout from '../components/PageLayout';
-import { InputWithButton } from '../components/InputWithButton';
 import { MainAccordition } from '../components/MainAccordition';
 import WhyChooseUs from '../components/home-page/WhyChooseUs';
 import Services from '../components/home-page/Services';
@@ -10,16 +9,14 @@ import Services from '../components/home-page/Services';
 const Home = () => {
   return (
     <PageLayout>
-      <div className="mx-auto w-full">
+      <div className="mx-auto mb-20 w-full">
         <Header />
-        <Separator />
+        <Separator className="bg-primary" />
         <WhyChooseUs />
         <Separator />
         <Services />
         <Separator />
-        <InputWithButton />
         <MainAccordition />
-        <Separator className="mb-10" />
       </div>
     </PageLayout>
   );

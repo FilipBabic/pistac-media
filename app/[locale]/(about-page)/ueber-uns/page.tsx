@@ -1,7 +1,10 @@
 import { Separator } from '@/components/ui/separator';
 import PageLayout from '@/app/components/PageLayout';
 import ReusableSection from '@/app/components/reusable/ReusableSection';
-
+import OurMission from '@/app/components/services-page/OurMission';
+import OurVision from '@/app/components/services-page/OurVision';
+import ClientsCarousel from '@/app/components/about-page/ClientsCarousel';
+import OurTeamSection from '@/app/components/about-page/OurTeamSection';
 const AboutPage = () => {
   return (
     <PageLayout>
@@ -9,9 +12,28 @@ const AboutPage = () => {
         translation="AboutPage.Header"
         buttons={false}
         image={true}
-        imageUrl="/assets/images/digital-marketing-team.png"
+        imageUrl="/assets/images/mockup-tablet-1.jpg"
       />
+      <Separator className="bg-primary" />
+      <ReusableSection
+        translation="AboutPage.Mission"
+        buttons={false}
+        image={true}
+        imageUrl="/assets/images/woman-with-laptop-1.jpg"
+      />
+      <OurMission />
+      <Separator className="mt-20" />
+      <ReusableSection
+        translation="AboutPage.Vision"
+        buttons={false}
+        image={true}
+        imageUrl="/assets/images/digital-marketing-ilustration-2.png"
+      />
+      <OurVision />
+      <Separator className="mt-20" />
+      <ClientsCarousel />
       <Separator />
+      <OurTeamSection />
     </PageLayout>
   );
 };

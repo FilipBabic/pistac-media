@@ -124,6 +124,15 @@
         "title": "Inspirisanje kreativnosti",
         "content": "Kreativnost podstičemo kako u našem timu, tako i kod klijenata. Gradimo digitalna okruženja koja motivišu na inovaciju i slobodno izražavanje."
       }
+    },
+    "Clients": {
+      "h1": "Naši klijenti"
+    },
+    "OurTeam": {
+      "badge": "Naš tim",
+      "description-1": "Povećava prepoznatljivost brenda i generiše lidove putem strateškog sadržaja, SEO optimizacije, društvenih mreža i plaćenih kampanja.",
+      "description-2": "Razvija i održava skalabilnu serversku logiku, API-je i baze podataka za podršku neometanom radu aplikacije.",
+      "description-3": "Razvija moderne korisničke interfejse i optimizuje sajtove za pretraživače, obezbeđujući bolju vidljivost i veću posetu kroz efikasne SEO strategije."
     }
   },
   "blog": {
@@ -170,6 +179,18 @@
     "contact": "Kontakt",
     "prices": "Cene usluga",
     "call": "Pozovite nas"
+  },
+  "Footer": {
+    "TopFooter": {
+      "contact-us": "Kontaktirajte nas",
+      "link": "Pošaljite poruku našem timu"
+    },
+    "BottomFooter": {
+      "rights": "Sva prava zadržana.",
+      "privacy": "Politika privatnosti",
+      "terms": "Uslovi korišćenja",
+      "contact": "Kontaktirajte nas"
+    }
   },
   "Manifest": {
     "name": "Pistać Media | Digitalni Marketing, Izrada Web sajtova i aplikacija, SEO optimizacija"

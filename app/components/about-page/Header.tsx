@@ -8,7 +8,9 @@ export default function Header() {
     <section className="gap-6 py-10 md:py-20">
       <div className="mb-12 flex flex-col items-center justify-between gap-8 text-left text-gray-700 md:flex-row">
         <div className="w-full md:w-2/3">
-          <Badge className="bg-primary-400 mb-4 text-base">{t('badge')}</Badge>
+          <Badge className="bg-secondary text-primary-dark mb-4 text-base">
+            {t('badge')}
+          </Badge>
           <h2 className="text-3xl font-bold text-white md:text-5xl">
             {t('h2')}
           </h2>

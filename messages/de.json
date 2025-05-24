@@ -59,9 +59,80 @@
   },
   "AboutPage": {
     "Header": {
-      "badge": "Was machen wir?",
-      "h2": "Wir entwickeln digitale Lösungen, die Bestand haben.",
-      "p-1": "Wir sind ein Team, das Kreativität, Technologie und Strategie vereint, um Marken beim Wachstum zu unterstützen und einen bleibenden Eindruck in der digitalen Welt zu hinterlassen."
+      "badge": "Was wir tun",
+      "h2": "Wir entwickeln digitale Lösungen mit Bestand.",
+      "p-1": "<p>Um Ihre Marke im digitalen Raum sichtbar, relevant und engagiert zu machen, ist es entscheidend, aktuelle Trends zu verfolgen und vielfältige, hochwertige Inhalte zu erstellen. Dazu gehören dynamische <b>Story-Formate, informative und visuell ansprechende Beiträge</b> sowie Short-Form-Videos, die zur Interaktion anregen.</p><p>Die Präsenz auf Plattformen wie Instagram, TikTok, LinkedIn, Twitter und Pinterest hängt von Ihrer Branche und Zielgruppe ab – genau hier kommen wir ins Spiel.</p><p>Unser Team übernimmt das komplette Management Ihrer Social-Media-Präsenz: von der Strategie und Content-Erstellung über die Analyse bis hin zur täglichen Kommunikation mit Ihrer Community. Sie konzentrieren sich auf Ihr Geschäft – wir übernehmen das Digitale.</p>"
+    },
+    "Mission": {
+      "badge": "Unsere Mission",
+      "h2": "Wir helfen Marken, authentisch zu kommunizieren, durch Innovation zu wachsen und sichtbare Ergebnisse in der digitalen Welt zu erzielen.",
+      "p-1": "<p>Unsere Mission ist es, Ihnen zu helfen, eine starke Online-Präsenz aufzubauen, die Sie von der Konkurrenz abhebt. Wir glauben an die Kraft des digitalen Marketings und der Technologie, Unternehmen zu transformieren und Ergebnisse zu liefern.</p><p>Unser Expertenteam bietet maßgeschneiderte Lösungen, die Ihren Bedürfnissen und Zielen entsprechen. Gemeinsam mit Ihnen setzen wir Ihre Ideen in die Realität um.</p>",
+      "card-1": {
+        "title": "Authentizität an erster Stelle",
+        "content": "Wir schaffen Inhalte, die die Identität Ihrer Marke widerspiegeln und Vertrauen bei Ihrem Publikum aufbauen."
+      },
+      "card-2": {
+        "title": "Innovationen mit Wirkung",
+        "content": "Wir verfolgen die neuesten Trends und Technologien, um kreative und effektive digitale Lösungen anzubieten."
+      },
+      "card-3": {
+        "title": "Individuelle Strategien",
+        "content": "Jede Kampagne wird sorgfältig auf Ihre Geschäftsziele, Ihre Nische und Ihre Zielgruppe abgestimmt."
+      },
+      "card-4": {
+        "title": "Interaktion mit Sinn",
+        "content": "Wir fördern Interaktionen, die inspirieren, informieren und eine positive Community rund um Ihre Marke aufbauen."
+      },
+      "card-5": {
+        "title": "Klare und transparente Kommunikation",
+        "content": "Offener Dialog, regelmäßiges Reporting und Zusammenarbeit sind das Fundament jedes erfolgreichen Projekts."
+      },
+      "card-6": {
+        "title": "Soziale Verantwortung",
+        "content": "Wir entwickeln Kampagnen, die positive Werte fördern und zum Engagement für gesellschaftlich relevante Ziele anregen."
+      },
+      "card-7": {
+        "title": "Kundenbildung",
+        "content": "Wir geben Einblicke in digitale Prozesse, damit Sie fundierte Entscheidungen treffen und langfristig wachsen können."
+      }
+    },
+    "Vision": {
+      "badge": "Unsere Vision",
+      "h2": "Unsere Vision ist es, einen nachhaltigen, inklusiven und kreativen digitalen Raum zu schaffen, in dem Marken nicht nur wachsen, sondern auch einen positiven Einfluss auf die Gemeinschaft und Kultur hinterlassen.",
+      "p-1": "<p>Kunden stehen im Mittelpunkt all unserer Aktivitäten. Wir bauen langfristige Beziehungen auf, die auf Vertrauen basieren, passen uns ihren Bedürfnissen an und bieten Lösungen, die inspirieren, Grenzen verschieben und sich im digitalen Raum hervorheben.</p><p>Wir glauben, dass visuelle Attraktivität, soziale Verantwortung, kulturelle Relevanz und Kreativität keine Optionen sind – sondern der Standard, den jede Marke verdient.</p>",
+      "card-1": {
+        "title": "Kundenzentrierter Ansatz",
+        "content": "Im Zentrum jedes Projekts steht der Kunde – seine Ziele, Bedürfnisse und Rückmeldungen. Unser Ansatz ist dynamisch, personalisiert und strategisch auf Ergebnisse ausgerichtet."
+      },
+      "card-2": {
+        "title": "Visuell ansprechende Kampagnen",
+        "content": "Ästhetik ist entscheidend im digitalen Raum. Wir kreieren Kampagnen, die nicht nur Aufmerksamkeit erregen, sondern auch im Gedächtnis bleiben – durch Farbe, Komposition und Botschaft."
+      },
+      "card-3": {
+        "title": "Langfristige Partnerschaften",
+        "content": "Wir glauben an dauerhafte Zusammenarbeit. Durch konsequente Kommunikation und Unterstützung helfen wir unseren Kunden langfristig zu wachsen."
+      },
+      "card-4": {
+        "title": "Inklusive Zusammenarbeit",
+        "content": "Wir sind offen für Kooperationen mit Marken aus verschiedenen Branchen und Kulturen – und bauen Brücken durch Vielfalt und globalen Einfluss."
+      },
+      "card-5": {
+        "title": "Zusammenarbeit mit Influencern",
+        "content": "Wir entwickeln Partnerschaften mit kulturellen und sozialen Content Creators, um die Reichweite und Relevanz jeder Kampagne zu erweitern."
+      },
+      "card-6": {
+        "title": "Kreativität inspirieren",
+        "content": "Wir fördern Kreativität sowohl in unserem Team als auch bei unseren Kunden. Wir gestalten digitale Umgebungen, die zu Innovation und freiem Ausdruck motivieren."
+      }
+    },
+    "Clients": {
+      "h1": "Unsere Kunden"
+    },
+    "OurTeam": {
+      "badge": "Unser Team",
+      "description-1": "Steigert die Markenbekanntheit und generiert Leads durch strategische Inhalte, SEO, Social Media und bezahlte Kampagnen.",
+      "description-2": "Entwickelt und pflegt skalierbare serverseitige Logik, APIs und Datenbanken zur Unterstützung einer reibungslosen Anwendungsleistung.",
+      "description-3": "Entwickelt moderne Benutzeroberflächen und optimiert Websites für Suchmaschinen, um durch effektive SEO-Strategien bessere Sichtbarkeit und mehr Besucher zu gewährleisten."
     }
   },
   "blog": {
@@ -108,6 +179,18 @@
     "contact": "Kontakt",
     "prices": "Preise",
     "call": "Rufen Sie uns an"
+  },
+  "Footer": {
+    "TopFooter": {
+      "contact-us": "Kontaktieren Sie uns",
+      "link": "Senden Sie unserem Team eine Nachricht"
+    },
+    "BottomFooter": {
+      "rights": "Alle Rechte vorbehalten.",
+      "privacy": "Datenschutzerklärung",
+      "terms": "Nutzungsbedingungen",
+      "contact": "Kontaktieren Sie uns"
+    }
   },
   "NotFoundPage": {
     "title": "Seite nicht gefunden",

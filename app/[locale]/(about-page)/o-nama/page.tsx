@@ -12,14 +12,14 @@ const AboutPage = () => {
         translation="AboutPage.Header"
         buttons={false}
         image={true}
-        imageUrl="/assets/images/woman-with-laptop-1.jpg"
+        imageUrl="/assets/images/mockup-tablet-1.jpg"
       />
-      <Separator />
+      <Separator className="bg-primary" />
       <ReusableSection
         translation="AboutPage.Mission"
         buttons={false}
         image={true}
-        imageUrl="/assets/images/digital-marketing-ilustration-2.png"
+        imageUrl="/assets/images/woman-with-laptop-1.jpg"
       />
       <OurMission />
       <Separator className="mt-20" />
@@ -27,7 +27,7 @@ const AboutPage = () => {
         translation="AboutPage.Vision"
         buttons={false}
         image={true}
-        imageUrl="/assets/images/why-choose-us-2.png"
+        imageUrl="/assets/images/digital-marketing-ilustration-2.png"
       />
       <OurVision />
       <Separator className="mt-20" />
