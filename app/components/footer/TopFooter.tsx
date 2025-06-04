@@ -41,11 +41,11 @@ const socialLinks = [
 export default function TopFooter() {
   const t = useTranslations('Footer.TopFooter');
   return (
-    <footer className="border-border w-full border-t bg-[#f5f5f5] px-6 py-10">
+    <footer className="bg-primary w-full px-6 py-10">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 sm:flex-row">
         {/* Contact Link */}
         <div className="text-center sm:text-left">
-          <h4 className="text-lg font-semibold text-green-800">
+          <h4 className="text-secondary text-lg font-semibold">
             {t('contact-us')}
           </h4>
           <Link

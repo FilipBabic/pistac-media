@@ -8,7 +8,7 @@ export default function OurTeamSection() {
   const t = useTranslations('AboutPage.OurTeam');
   return (
     <section className="py-12">
-      <Badge className="bg-secondary text-primary-dark mb-6 text-base">
+      <Badge className="bg-secondary border-primary-500 mb-4 text-lg text-white">
         {t('badge')}
       </Badge>
       <div className="flex flex-wrap justify-center gap-6">

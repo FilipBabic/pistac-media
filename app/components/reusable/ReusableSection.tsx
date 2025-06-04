@@ -21,13 +21,13 @@ export default function ReusableSection({
     <section className="gap-6 py-10 md:py-20">
       <div className="mb-12 flex flex-col items-center justify-between gap-8 text-left text-gray-700 md:flex-row">
         <div className="w-full text-left md:w-2/3">
-          <Badge className="bg-secondary text-primary-dark mb-4 text-base">
+          <Badge className="bg-secondary border-primary-500 mb-4 text-lg text-white">
             {t('badge')}
           </Badge>
           <h2 className="font-bebas text-3xl font-bold text-white md:text-5xl">
             {t('h2')}
           </h2>
-          <div className="mt-4 max-w-2xl text-left text-base text-gray-600 md:text-lg">
+          <div className="mt-4 max-w-3xl text-left text-base text-gray-700 md:text-xl">
             {t.rich('p-1', {
               p: (chunks) => <p className="mt-4">{chunks}</p>,
               b: (chunks) => <b>{chunks}</b>,

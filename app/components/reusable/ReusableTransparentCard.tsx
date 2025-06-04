@@ -1,7 +1,7 @@
 import type { LucideIcon } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 type IconCardProps = {
   translation: string;
   icon: LucideIcon;
@@ -13,15 +13,15 @@ export default function ReusableTransparentCard({
 }: IconCardProps) {
   const t = useTranslations(`${translation}`);
   return (
-    <Card className="bg-secondary h-full rounded-2xl border-0 pt-4 shadow-md">
-      <CardContent className="flex flex-col items-start space-y-3">
-        <div className="rounded-xl bg-green-700 p-2">
-          <Icon className="h-6 w-6 text-white" />
-        </div>
-        <h3 className="font-bebas text-lg font-semibold text-green-700">
+    <Card className="border-primary-dark flex h-full flex-col items-center bg-white text-center">
+      <CardHeader className="flex w-full flex-col items-center">
+        <Icon className="mb-0 h-8 w-8 text-green-600" />
+        <CardTitle className="w-full text-lg font-semibold text-balance text-black">
           {t('title')}
-        </h3>
-        <p className="text-left text-base text-gray-600">{t('content')}</p>
+        </CardTitle>
+      </CardHeader>
+      <CardContent className="flex flex-grow items-center px-4 text-center text-base text-gray-700">
+        {t('content')}
       </CardContent>
     </Card>
   );

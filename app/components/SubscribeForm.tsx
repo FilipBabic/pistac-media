@@ -42,7 +42,7 @@ export function SubscribeForm() {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input placeholder="John Doe" {...field} />
+                <Input autoComplete="name" placeholder="John Doe" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -56,7 +56,12 @@ export function SubscribeForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input type="email" placeholder="john@example.com" {...field} />
+                <Input
+                  autoComplete="email"
+                  type="email"
+                  placeholder="john@example.com"
+                  {...field}
+                />
               </FormControl>
               <FormMessage />
             </FormItem>

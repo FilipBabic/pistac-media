@@ -4,7 +4,7 @@
       "h1": "Vaša ideja. Naša tehnologija. Zajednički uspeh.",
       "p-1": "Izrađujemo moderne web sajtove, aplikacije i digitalne kampanje koje povećavaju vašu vidljivost i prodaju.",
       "link": "Zatraži besplatnu konsultaciju",
-      "p-2": "Prvi razgovor je potpuno besplatan i bez obaveza."
+      "p-2": "**prvi razgovor je potpuno besplatan i bez obaveza**"
     },
     "WhyChooseUs": {
       "badge": "Zašto baš mi?",
@@ -46,6 +46,42 @@
           "content-3": "Email & content marketing"
         }
       }
+    },
+    "ImproveBusiness": {
+      "badge": "Kako unaprediti poslovanje lako i efikasno",
+      "h2": "Povećajte vidljivost i prodaju",
+      "p-1": "Bez obzira da li ste mali preduzetnik ili vodite ozbiljan biznis, postoje brzi i dostupni načini da unapredite svoje poslovanje. Ova sekcija vas vodi ka detaljnim blog tekstovima koji objašnjavaju kako digitalni alati i strategije mogu da povećaju vašu efikasnost i prodaju. Fokus je na tri ključna područja: digitalni marketing, web sajtovi i web aplikacije.",
+      "digital-marketing": {
+        "h1": "Digitalni marketing",
+        "p-1": "Digitalni marketing je neizostavan alat svakog savremenog biznisa. Uz prave strategije i alate, možete doći do većeg broja klijenata, povećati lojalnost postojećih i podići prodaju na viši nivo.",
+        "title-1": "Kako da unapredim interakciju sa pratiocima?",
+        "content-1": "Saznajte kako da unapredite interakciju sa pratiocima na društvenim mrežama kroz konkretne savete o poznavanju ciljne grupe, korišćenju poziva na akciju, doslednom objavljivanju i odgovaranju na komentare. Ključ uspeha nije broj pratilaca, već kvalitet komunikacije sa njima.",
+        "title-2": "Kako da unapredim posećenost mojih naloga?",
+        "content-2": "Otkrijte efikasne načine za povećanje posećenosti vaših profila na društvenim mrežama kroz optimizaciju profila, kreiranje deljivog sadržaja, pametno korišćenje heštagova, saradnje sa drugim nalozima i analizu podataka radi konstantnog napretka.",
+        "title-3": "Kako da unapredim prodaju mojih usluga?",
+        "content-3": "Otkrijte efikasne načine za povećanje prodaje vaših usluga uz pomoć optimizacije prisustva na mrežama, prodajnih poruka, sadržaja koji gradi poverenje i targetiranog oglašavanja."
+      },
+      "web-sites": {
+        "h1": "Web sajtovi",
+        "p-1": " Web sajt je digitalna lična karta vašeg biznisa. Profesionalan, funkcionalan i SEO-optimizovan sajt gradi poverenje i olakšava korisnicima da vas pronađu i angažuju.",
+        "title-1": "Zašto mi je potreban web sajt i šta on donosi mom biznisu?",
+        "content-1": "Objašnjenje benefita sajta i primera iz prakse.",
+        "title-2": "Kako da moj sajt bude brži i dostupniji korisnicima?",
+        "content-2": "Tehnički saveti za bolje performanse i korisničko iskustvo.",
+        "title-3": "Kako da sajt izgleda profesionalno bez velikih troškova?",
+        "content-3": "Najbolje prakse i alati za mali budžet."
+      },
+      "web-apps": {
+        "h1": "Web aplikacije",
+        "p-1": "Web aplikacije omogućavaju automatizaciju procesa, povećanje efikasnosti i unikatnu interakciju sa korisnicima. Prave su rešenje za one koji žele da idu korak dalje u digitalizaciji poslovanja.",
+        "title-1": "Šta je web aplikacija i kako može pomoći mom biznisu?",
+        "content-1": "Pregled prednosti i primera upotrebe u realnim uslovima.",
+        "title-2": "Kada je pravo vreme da investirate u izradu web aplikacije?",
+        "content-2": "Signali da vam je potrebno napredno rešenje.",
+        "title-3": "Kako web aplikacije povećavaju produktivnost tima?",
+        "content-3": "Automatizacija zadataka i bolja saradnja."
+      },
+      "button-2": "Pročitaj više"
     }
   },
   "ServicesPage": {

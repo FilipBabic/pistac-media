@@ -46,6 +46,42 @@
           "content-3": "E-Mail- & Content-Marketing"
         }
       }
+    },
+    "ImproveBusiness": {
+      "badge": "Wie Sie Ihr Geschäft einfach und effizient verbessern",
+      "h2": "Sichtbarkeit und Umsatz steigern",
+      "p-1": "Egal, ob Sie ein Kleinunternehmer sind oder ein etabliertes Unternehmen führen – es gibt schnelle und zugängliche Wege, Ihr Geschäft zu verbessern. Dieser Abschnitt führt Sie zu detaillierten Blogbeiträgen, die erklären, wie digitale Werkzeuge und Strategien Ihre Effizienz und Ihren Umsatz steigern können. Der Fokus liegt auf drei Schlüsselbereichen: digitales Marketing, Websites und Webanwendungen.",
+      "digital-marketing": {
+        "h1": "Digitales Marketing",
+        "p-1": "Digitales Marketing ist ein unverzichtbares Werkzeug für jedes moderne Unternehmen. Mit den richtigen Strategien und Tools erreichen Sie mehr Kunden, stärken die Kundenbindung und steigern Ihren Umsatz.",
+        "title-1": "Wie kann ich die Interaktion mit meinen Followern verbessern?",
+        "content-1": "Erfahren Sie, wie Sie die Interaktion mit Ihren Social-Media-Followern verbessern – mit praktischen Tipps zur Zielgruppenanalyse, zu Handlungsaufrufen, regelmäßigen Posts und zur Reaktion auf Kommentare. Der Erfolg hängt nicht von der Anzahl der Follower ab, sondern von der Qualität der Kommunikation.",
+        "title-2": "Wie kann ich die Reichweite meiner Profile erhöhen?",
+        "content-2": "Entdecken Sie effektive Wege zur Steigerung der Profilaufrufe durch Profiloptimierung, teilbaren Content, gezielte Hashtags, Kooperationen mit anderen Accounts und kontinuierliche Datenanalyse.",
+        "title-3": "Wie kann ich den Verkauf meiner Dienstleistungen steigern?",
+        "content-3": "Erfahren Sie, wie Sie mit gezielter Online-Präsenz, überzeugender Kommunikation, vertrauensbildendem Content und gezielter Werbung Ihre Dienstleistungen erfolgreicher verkaufen."
+      },
+      "web-sites": {
+        "h1": "Websites",
+        "p-1": "Eine Website ist die digitale Visitenkarte Ihres Unternehmens. Eine professionelle, funktionale und SEO-optimierte Seite schafft Vertrauen und hilft Kunden, Sie leichter zu finden und zu kontaktieren.",
+        "title-1": "Warum brauche ich eine Website und welchen Nutzen bringt sie meinem Geschäft?",
+        "content-1": "Erläuterung der Vorteile einer Website mit Beispielen aus der Praxis.",
+        "title-2": "Wie mache ich meine Website schneller und benutzerfreundlicher?",
+        "content-2": "Technische Tipps für bessere Performance und Benutzererlebnis.",
+        "title-3": "Wie kann meine Website professionell aussehen, ohne hohe Kosten?",
+        "content-3": "Best Practices und Tools für kleine Budgets."
+      },
+      "web-apps": {
+        "h1": "Webanwendungen",
+        "p-1": "Webanwendungen ermöglichen die Automatisierung von Prozessen, steigern die Effizienz und bieten eine einzigartige Nutzerinteraktion. Sie sind die ideale Lösung für Unternehmen, die ihre Digitalisierung vorantreiben möchten.",
+        "title-1": "Was ist eine Webanwendung und wie kann sie meinem Geschäft helfen?",
+        "content-1": "Überblick über Vorteile und reale Anwendungsbeispiele.",
+        "title-2": "Wann ist der richtige Zeitpunkt, in eine Webanwendung zu investieren?",
+        "content-2": "Anzeichen dafür, dass Sie eine fortschrittliche Lösung benötigen.",
+        "title-3": "Wie steigern Webanwendungen die Produktivität meines Teams?",
+        "content-3": "Aufgabenautomatisierung und bessere Zusammenarbeit."
+      },
+      "button-2": "Mehr erfahren"
     }
   },
   "ServicesPage": {

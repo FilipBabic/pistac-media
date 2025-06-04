@@ -46,6 +46,42 @@
           "content-3": "Email & content marketing"
         }
       }
+    },
+    "ImproveBusiness": {
+      "badge": "How to Improve Your Business Easily and Efficiently",
+      "h2": "Increase Visibility and Sales",
+      "p-1": "Whether you're a small entrepreneur or running a serious business, there are quick and accessible ways to improve your operations. This section guides you to detailed blog posts explaining how digital tools and strategies can boost your efficiency and sales. The focus is on three key areas: digital marketing, websites, and web applications.",
+      "digital-marketing": {
+        "h1": "Digital Marketing",
+        "p-1": "Digital marketing is an essential tool for any modern business. With the right strategies and tools, you can reach more clients, increase loyalty, and elevate your sales.",
+        "title-1": "How can I improve interaction with my followers?",
+        "content-1": "Learn how to enhance interaction with your social media followers through practical tips on audience targeting, calls-to-action, consistent posting, and responding to comments. Success is not about the number of followers, but the quality of communication.",
+        "title-2": "How can I improve the reach of my profiles?",
+        "content-2": "Discover effective ways to increase social media profile visits by optimizing your profile, creating shareable content, using hashtags wisely, collaborating with other accounts, and analyzing data for continuous improvement.",
+        "title-3": "How can I boost the sales of my services?",
+        "content-3": "Explore how to increase service sales through better social presence, persuasive messaging, trust-building content, and targeted advertising."
+      },
+      "web-sites": {
+        "h1": "Websites",
+        "p-1": "Your website is the digital business card of your company. A professional, functional, and SEO-optimized site builds trust and helps clients find and engage with you easily.",
+        "title-1": "Why do I need a website and what does it bring to my business?",
+        "content-1": "Explanation of website benefits and real-world examples.",
+        "title-2": "How can I make my website faster and more accessible?",
+        "content-2": "Technical tips for better performance and user experience.",
+        "title-3": "How can my website look professional without big costs?",
+        "content-3": "Best practices and tools for small budgets."
+      },
+      "web-apps": {
+        "h1": "Web Applications",
+        "p-1": "Web applications enable process automation, increased efficiency, and unique user interaction. They are the right solution for those looking to advance their digital operations.",
+        "title-1": "What is a web application and how can it help my business?",
+        "content-1": "Overview of benefits and real-world use cases.",
+        "title-2": "When is the right time to invest in a web application?",
+        "content-2": "Signs that an advanced solution is needed.",
+        "title-3": "How do web applications increase team productivity?",
+        "content-3": "Task automation and improved collaboration."
+      },
+      "button-2": "Read More"
     }
   },
   "ServicesPage": {
