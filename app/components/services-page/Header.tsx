@@ -1,5 +1,3 @@
-// app/usluge/page.tsx ili app/(routes)/usluge/page.tsx
-
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';

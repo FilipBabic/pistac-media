@@ -1,10 +1,11 @@
 {
   "Home": {
     "Header": {
-      "h1": "Ihre Vision. Unsere Technologie. Unser gemeinsamer Erfolg.",
-      "p-1": "Wir erstellen moderne Websites, Apps und digitale Kampagnen, die Ihre Sichtbarkeit und Ihren Umsatz steigern.",
-      "link": "Fordern Sie eine kostenlose Beratung an",
-      "p-2": "Das erste Gespräch ist völlig kostenlos und unverbindlich."
+      "h1": "Ihre Vision, unsere Mission. Digitale Strategien, die Ergebnisse liefern.",
+      "p-1": "In einer Welt des endlosen Scrollens verdient Ihre Marke Aufmerksamkeit – mit einprägsamen Inhalten, verkaufsstarken Kampagnen und langfristigen Strategien.",
+      "link-1": "Kostenloses Beratungsgespräch vereinbaren",
+      "link-2": "Unsere Leistungen",
+      "p-2": "**das erste Gespräch ist völlig kostenlos und unverbindlich**"
     },
     "WhyChooseUs": {
       "badge": "Warum wir?",
@@ -91,13 +92,43 @@
       "p-1": "Wir helfen Ihnen, eine starke Online-Präsenz aufzubauen – mit modernen Websites, leistungsstarken Anwendungen und ergebnisorientiertem digitalen Marketing.",
       "button-1": "Kontaktieren Sie uns",
       "button-2": "Angebot ansehen"
+    },
+    "ServicesList": {
+      "badge": "Entdecke unsere Leistungen",
+
+      "title-1": "Social-Media-Management",
+      "description-1": "Wir betreuen Social Media nicht einfach, um 'etwas gepostet zu haben' – sondern um Inhalte zu schaffen, die Vertrauen aufbauen, das Publikum aktivieren und zum Handeln bewegen. Von Redaktionsplan, Copywriting und Design bis zu Analyse und Optimierung – ein umfassender SMM-Service mit Fokus auf Wachstum und Umsatz.",
+
+      "title-2": "Content-Erstellung",
+      "description-2": "Inhalte, die nicht weggescrollt werden, sondern Aufmerksamkeit fesseln! Wir erzählen visuelle Geschichten mit Produkt- und Lifestyle-Fotografie sowie Videoformaten, die für jede Plattform optimiert sind. Wir arbeiten nach euren Markenrichtlinien oder entwickeln sie gemeinsam mit euch – stets mit Fokus auf Qualität, Klarheit und Ästhetik.",
+
+      "title-3": "Meta- & Google-Werbung",
+      "description-3": "Bezahlte Werbung mit Sinn und Wirkung! Wir erstellen und verwalten Kampagnen auf Meta Ads (Instagram & Facebook) und Google Ads mit gezieltem Targeting, Budgetkontrolle und Conversion-Tracking. Jeder Schritt wird optimiert – vom Visual über den Text bis zur Zielgruppe und Performance.",
+
+      "title-4": "Influencer-Marketing",
+      "description-4": "Die richtigen Menschen. Die richtige Zielgruppe. Der richtige Einfluss. Wir verbinden Marken mit relevanten Mikro- und Makro-Influencern, die authentisch kommunizieren. Wir begleiten die Umsetzung, messen den Erfolg und wählen sinnvolle Kooperationen – sowohl für dich als auch für dein Publikum.",
+
+      "title-5": "E-Mail-Marketing",
+      "description-5": "Botschaften, die im Posteingang landen – nicht im Spam! Wir gestalten und verfassen Newsletter, Automationen und Sequenzen, die nicht nur ankommen, sondern auch konvertieren. Egal ob Information, Kundenbindung oder Verkauf – E-Mail bleibt einer der effektivsten Kanäle.",
+
+      "title-6": "Webseiten-Erstellung",
+      "description-6": "Eine Website, die nur für dich gemacht ist. Keine Templates – blitzschnell! Wir entwickeln maßgeschneiderte Websites, angepasst an die Bedürfnisse deiner Marke. Von UX-Design und mobiler Optimierung bis zu Integrationen und Kontaktformularen – deine Website wird mehr als nur eine digitale Visitenkarte. Sie wird dein bester Verkäufer.",
+
+      "title-7": "SEO-Optimierung",
+      "description-7": "Mehr Besucher. Bessere Platzierung. Organisches Wachstum. Wir optimieren Inhalte, technische Struktur und Nutzererlebnis, damit deine Website bei Google besser rankt. Von Keywords bis zu Meta-Daten – unser SEO-Ansatz ist strategisch, messbar und langfristig.",
+
+      "title-8": "Professionelle Fotografie",
+      "description-8": "Fotos, die Vertrauen schaffen. Wir erstellen Bilder, die deine Markenbotschaft ganz ohne Worte erzählen – egal ob Produkt-, Lifestyle- oder Porträtfotografie. Jeder Shot ist sorgfältig geplant, professionell umgesetzt und mit klarer Aussage.",
+
+      "title-9": "Videoproduktion",
+      "description-9": "Von der Idee bis zum Schnitt. Videoinhalte, die nicht übersprungen werden. Drehbuch, Aufnahme, Schnitt, Color Grading und Optimierung – wir produzieren Videos, die professionell aussehen, authentisch wirken und messbare Ergebnisse liefern."
     }
   },
   "AboutPage": {
     "Header": {
-      "badge": "Was wir tun",
-      "h2": "Wir entwickeln digitale Lösungen mit Bestand.",
-      "p-1": "<p>Um Ihre Marke im digitalen Raum sichtbar, relevant und engagiert zu machen, ist es entscheidend, aktuelle Trends zu verfolgen und vielfältige, hochwertige Inhalte zu erstellen. Dazu gehören dynamische <b>Story-Formate, informative und visuell ansprechende Beiträge</b> sowie Short-Form-Videos, die zur Interaktion anregen.</p><p>Die Präsenz auf Plattformen wie Instagram, TikTok, LinkedIn, Twitter und Pinterest hängt von Ihrer Branche und Zielgruppe ab – genau hier kommen wir ins Spiel.</p><p>Unser Team übernimmt das komplette Management Ihrer Social-Media-Präsenz: von der Strategie und Content-Erstellung über die Analyse bis hin zur täglichen Kommunikation mit Ihrer Community. Sie konzentrieren sich auf Ihr Geschäft – wir übernehmen das Digitale.</p>"
+      "badge": "Was machen wir?",
+      "h2": "Wir erstellen nicht einfach Inhalte! Wir entwickeln Strategien, die verkaufen und Ergebnisse liefern!",
+      "p-1": "<p>Bei Pistać Media bieten wir keine vorgefertigten Vorlagen an. Wir betrachten jede Marke als eine einzigartige Geschichte – mit klaren Zielen, einer spezifischen Zielgruppe und einer besonderen Energie. Unsere Arbeit beginnt mit Zuhören und Verstehen.</p><p>Wir verbinden Strategie mit Ästhetik. Wir folgen keinen Trends – wir setzen sie! Wir erstellen Inhalte mit echtem Zweck, optimieren sie für Leistung und verpacken sie in Story-, Foto-, Karussell- und/oder Kurzvideoformate, die Ergebnisse liefern.</p><p>Ob du eine kleine Marke am Anfang bist oder ein etabliertes Unternehmen in der Wachstumsphase – wir sind da, um deine Vision sichtbar, konsistent und profitabel zu machen.</p>"
     },
     "Mission": {
       "badge": "Unsere Mission",
@@ -134,7 +165,7 @@
     },
     "Vision": {
       "badge": "Unsere Vision",
-      "h2": "Unsere Vision ist es, einen nachhaltigen, inklusiven und kreativen digitalen Raum zu schaffen, in dem Marken nicht nur wachsen, sondern auch einen positiven Einfluss auf die Gemeinschaft und Kultur hinterlassen.",
+      "h2": "Wir schaffen einen nachhaltigen, inklusiven und kreativen digitalen Raum, in dem Marken nicht nur wachsen, sondern auch einen positiven Einfluss auf Gemeinschaft und Kultur hinterlassen.",
       "p-1": "<p>Kunden stehen im Mittelpunkt all unserer Aktivitäten. Wir bauen langfristige Beziehungen auf, die auf Vertrauen basieren, passen uns ihren Bedürfnissen an und bieten Lösungen, die inspirieren, Grenzen verschieben und sich im digitalen Raum hervorheben.</p><p>Wir glauben, dass visuelle Attraktivität, soziale Verantwortung, kulturelle Relevanz und Kreativität keine Optionen sind – sondern der Standard, den jede Marke verdient.</p>",
       "card-1": {
         "title": "Kundenzentrierter Ansatz",
@@ -166,9 +197,13 @@
     },
     "OurTeam": {
       "badge": "Unser Team",
-      "description-1": "Steigert die Markenbekanntheit und generiert Leads durch strategische Inhalte, SEO, Social Media und bezahlte Kampagnen.",
-      "description-2": "Entwickelt und pflegt skalierbare serverseitige Logik, APIs und Datenbanken zur Unterstützung einer reibungslosen Anwendungsleistung.",
-      "description-3": "Entwickelt moderne Benutzeroberflächen und optimiert Websites für Suchmaschinen, um durch effektive SEO-Strategien bessere Sichtbarkeit und mehr Besucher zu gewährleisten."
+      "p-1": "Wir sind kein Team, das einfach nur „den Job erledigt“. Wir sind Menschen, die Digitales verstehen, Ästhetik lieben und wissen, wie man Ideen in Ergebnisse verwandelt. Jedes Teammitglied bringt seine eigene Expertise und Perspektive mit, aber wir alle verfolgen dieselbe Mission – Ihre Marke sichtbar, relevant und unverwechselbar in der digitalen Welt zu machen.",
+      "description-1": "Betreut Social-Media-Kanäle so, dass Nutzer klicken, folgen und kaufen wollen. Steigert die Markenbekanntheit, analysiert Kennzahlen und generiert Leads durch strategischen Content, SEO, soziale Netzwerke und bezahlte Kampagnen.",
+      "description-2": "Der Mensch im Hintergrund, der sicherstellt, dass Ihre Website nicht abstürzt – selbst bei hohem Traffic. Deckt den gesamten Entwicklungsprozess ab – von Datenbanken und Servern bis hin zur visuellen Darstellung. Garantiert Stabilität, Geschwindigkeit und Funktionalität jeder Website.",
+      "description-3": "Spezialisiert auf Benutzeroberflächen, UX und die visuelle Gestaltung jeder Website. Entwickelt moderne Interfaces und optimiert Seiten für Suchmaschinen, um bessere Sichtbarkeit und mehr Besucher durch effektive SEO-Strategien zu erzielen.",
+      "description-4": "Schreibt, als würde er Sie kennen – und verkauft, ohne dass es wie Verkauf wirkt! Von Sequenzen und Design bis zu A/B-Tests und Performance-Analysen – erstellt E-Mail-Kampagnen, die kommunizieren, Vertrauen aufbauen und verkaufen.",
+      "description-5": "Seine Fotos sind nicht nur schön – sie erzählen die Geschichte Ihrer Marke. Spezialisiert auf Produkt-, Lifestyle- und Porträtfotografie. Stellt sicher, dass jedes Bild die richtige Botschaft sendet und Ihre Markenidentität stärkt.",
+      "description-6": "Weiß, wie man Videos produziert, die bis zum Ende geschaut werden. Erstellt dynamischen Videocontent für soziale Medien und Kampagnen. Vom Dreh bis zum Schnitt – alles abgestimmt auf die Ziele Ihrer Marke."
     }
   },
   "blog": {

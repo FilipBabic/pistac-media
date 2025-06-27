@@ -18,13 +18,31 @@ export default function Header() {
         <p className="mb-8 max-w-2xl text-lg text-gray-700 md:text-xl">
           {t('p-1')}
         </p>
-        <Button
+        <div className="mt-6 flex flex-row justify-center gap-4 text-gray-700 sm:justify-start">
+          <Link href="/contact">
+            <Button
+              variant="outline"
+              className="hover:bg-primary bg-white text-base hover:cursor-pointer"
+            >
+              {t('link-1')}
+            </Button>
+          </Link>
+          <Link href="/services">
+            <Button
+              variant="outline"
+              className="hover:bg-primary bg-white text-base hover:cursor-pointer"
+            >
+              {t('link-2')}
+            </Button>
+          </Link>
+        </div>
+        {/* <Button
           asChild
           variant="outline"
           className="hover:bg-primary rounded-lg bg-white px-4 py-6 text-lg font-bold text-gray-700 transition duration-300 hover:text-white"
         >
           <Link href="/contact">{t('link')}</Link>
-        </Button>
+        </Button> */}
 
         <p className="mt-4 text-sm font-bold text-white">{t('p-2')}</p>
       </section>

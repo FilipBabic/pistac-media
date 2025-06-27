@@ -1,9 +1,10 @@
 {
   "Home": {
     "Header": {
-      "h1": "Vaša ideja. Naša tehnologija. Zajednički uspeh.",
-      "p-1": "Izrađujemo moderne web sajtove, aplikacije i digitalne kampanje koje povećavaju vašu vidljivost i prodaju.",
-      "link": "Zatraži besplatnu konsultaciju",
+      "h1": "Vaša vizija, naša misija. Digitalne strategije koje donose rezultate.",
+      "p-1": "U svetu brzih scrollova, tvoj brend zaslužuje paznju - kroz sadržaj koji se pamti, kampanje koje prodaju i strategije koje traju.",
+      "link-1": "Zakaži besplatne konsultacije",
+      "link-2": "Naše usluge",
       "p-2": "**prvi razgovor je potpuno besplatan i bez obaveza**"
     },
     "WhyChooseUs": {
@@ -87,17 +88,47 @@
   "ServicesPage": {
     "Header": {
       "badge": "Naše usluge",
-      "h1": "Digitalna rešenja po meri vašeg biznisa",
-      "p-1": "Pomažemo vam da izgradite snažno online prisustvo – od modernih web sajtova do moćnih aplikacija i digitalnog marketinga koji donosi rezultate.",
+      "h1": "Digitalna rešenja koja pretvaraju klikove u klijente",
+      "p-1": "U Pistać Medii ne nudimo usluge - nudimo rešenja koja prodaju. Pomažemo vam da izgradite snažno online prisustvo - od strategije društvenih mreza, preko email marketinga, kampanja i sadržaja, do izrade modernih WEB sajtova i SEO optimizacije - kreiramo kompletan sistem koji vaš brend pretvara iz vidljivog u neophodan.",
       "button-1": "Kontaktiraj nas",
       "button-2": "Pogledaj ponudu"
+    },
+    "ServicesList": {
+      "badge": "Pogledajte naše usluge",
+
+      "title-1": "Vodjenje društvenih mreza",
+      "description-1": "Ne vodimo mreže da \"imas nešto objavljeno\" već da tvoj sadržaj gradi poverenje, angažuje publiku i poziva na akciju. Od plana objava, copywritinga i dizajna, do analize i optimizacije - kompletna SMM usluga sa ciljem rasta profila i prodaje.",
+
+      "title-2": "Kreiranje Sadržaja",
+      "description-2": "Sadržaj koji ne se skroluje vec zadržava pažnju! Kreiramo vizualne priče kroz produkt i lifestyle fotografiju i video formate prilagođene svakoj mreži. Radimo po brend smernicama ili ih osmišljavamo i kreiramo zajedno sa vama - uvek uz fokus na kvalitet, jasnoću i estetiku.",
+
+      "title-3": "Meta i Google oglašavanje",
+      "description-3": "Plaćeni oglasi koji imaju svhu i rezultat! Kreiramo i vodimo kampanje kroz Meta Ads (Instagram i Facebook) i Google Ads platforme, uz jasno targetiranje, budzet kontrolu i praćenje konverzija. Optimizujemo svaki korak - od vizuala i tekstova do ciljane publike i performansi.",
+
+      "title-4": "Influens marketing",
+      "description-4": "Pravi ljudi za tvoj brend. Prava Publika. Pravi uticaj. Povezujemo brendove sa relevantnim mikro i makro influenserima koji komuniciraju autentično. Pratimo realizaciju, merimo učinak i biramo smislene saradnje - kako za tebe tako i za tvoju publiku.",
+
+      "title-5": "Email marketing",
+      "description-5": "Poruka direktno u inbox, a ne u spam folder! Dizajniramo i pisemo newsletter, automatizacije i sekvence koje ne samo da stizu do korisnika, vec ih i konvertuju. Bilo da je cilj informisanje, lojalnost ili prodaja - mejl ostaje jedan od najefikasnijih kanala.",
+
+      "title-6": "Izrada WEB sajtova",
+      "description-6": "Sajt pravljen samo za tebe. Bez šablona uz najbrže učitavanje! Razvijamo custom sajtove prilagođene potrebama tvog brenda. Od UX dizajna, optimizacije za mobilne uređaje do integracija i kontakt formi - tvoj sajt će biti više od online visit karte. Biće tvoj najbolji prodavac.",
+
+      "title-7": "SEO optimizacija",
+      "description-7": "Više posetilaca. Bolja pozicija. Organski rast. Optimizujemo sadržaj, tehničku strukturu i korisnički doživljaj sajta kako bi se bolje rangirao na Google-u. Od ključnih reči do Meta podataka - naš SEO pristup je strateški meren i dugoročan.",
+
+      "title-8": "Profesionalno fotografisanje",
+      "description-8": "Fotografije koje grade poverenje. Kreiramo fotografije koje prenose tvoju priču bez reči - bilo da se radi o produkt, lifestyle ili portret fotografiji. Svaki kadar je pažljivo planiran kako bi izgledao profesionalno, ali i preneo jasnu poruku.",
+
+      "title-9": "Video produkcija",
+      "description-9": "Od ideje do montaže. Video sadržaj koji se ne preskače. Scenario, snimanje, montaža, color gradin i optimizacija. Kreiramo sadržaj koji izgleda profesionalno, zvuči autentično i daje rezultate."
     }
   },
   "AboutPage": {
     "Header": {
       "badge": "Šta radimo?",
-      "h2": "Gradimo digitalna rešenja koja traju.",
-      "p-1": "<p>Da bi vaš brend bio primećen, angažovan i relevantan u digitalnom okruženju, neophodno je pratiti savremene trendove i kreirati raznolik, kvalitetan sadržaj. To uključuje dinamične <b>story formate, informativne i vizuelno privlačne objave</b>, kao i short-form video sadržaj koji podstiče interakciju. </p><p>Prisustvo na ključnim platformama kao što su Instagram, TikTok, LinkedIn, Twitter i Pinterest zavisi od specifičnosti vaše industrije i ciljne publike – a upravo tu dolazimo mi.</p><p>Naš tim preuzima kompletno upravljanje vašim prisustvom na društvenim mrežama: od strategije i kreiranja sadržaja, do analitike i svakodnevne komunikacije sa publikom. Vi se fokusirate na biznis – mi se bavimo digitalom.</p>"
+      "h2": "Ne kreiramo sadržaj! Gradimo strategiju koja prodaje/donosi rezultate!",
+      "p-1": "<p>U Pistać Medii ne nudimo gotove šablone. Svakom brendu pristupamo kao jedinstvenoj priči - sa jasnim ciljevima, jedinstvenom publikom i specifičnom energijom. Nas rad počinje slušanjem i razumevanjem. </p><p>Spajamo strategiju i estetiku. Ne pratimo trendove, mi ih stvaramo! Kreiramo sadržaj koji ima svrhu, optimizujemo ga za performans i pakujemo story, foto, carousel i/ili short form video formate koji donose rezultate.</p><p>Bilo da s mali brend na početku ili ozbiljna firma u fazi rasta - tu smo da tvoja vizija postane prepoznatljiva, dosledna i profitabilna.</p>"
     },
     "Mission": {
       "badge": "Naša misija",
@@ -134,7 +165,7 @@
     },
     "Vision": {
       "badge": "Naša vizija",
-      "h2": "Naša vizija je stvaranje održivog, inkluzivnog i kreativnog digitalnog prostora, u kojem brendovi ne samo da rastu, već ostavljaju pozitivan trag u zajednici i kulturi.",
+      "h2": "Stvaramo održiv, inkluzivan i kreativan digitalni prostor, u kojem brendovi ne samo da rastu, već ostavljaju pozitivan trag u zajednici i kulturi.",
       "p-1": "<p>Klijenti su srce svega što radimo. Gradimo dugoročne odnose zasnovane na poverenju, prilagođavamo se njihovim potrebama i pružamo rešenja koja inspirišu, pomeraju granice i ističu se u digitalnom svetu.</p><p> Verujemo da vizuelna privlačnost, društvena odgovornost, kulturna relevantnost i kreativnost nisu opcije, već standard koji svaki brend zaslužuje.</p>",
       "card-1": {
         "title": "Fokus na klijentu",
@@ -166,9 +197,13 @@
     },
     "OurTeam": {
       "badge": "Naš tim",
-      "description-1": "Povećava prepoznatljivost brenda i generiše lidove putem strateškog sadržaja, SEO optimizacije, društvenih mreža i plaćenih kampanja.",
-      "description-2": "Razvija i održava skalabilnu serversku logiku, API-je i baze podataka za podršku neometanom radu aplikacije.",
-      "description-3": "Razvija moderne korisničke interfejse i optimizuje sajtove za pretraživače, obezbeđujući bolju vidljivost i veću posetu kroz efikasne SEO strategije."
+      "p-1": "Mi nismo tim koji samo \"odrađuje posao\". Mi smo ljudi koju razumeju digitalno, vole estetiku i znaju kako da pretvore ideju u rezultat. Svaki član načeg tima donosi svoju stručnost i perspektivu, ali svi delimo istu misiju - da vaš brend postane primećen, relevantan i pepoznatljiv u digitalnom svetu.",
+      "description-1": "Vodi mreže tako da korisnici kliknu, zaprate i požele da kupe. Povećava prepoznatljivost brenda, analizira metrike i generiše lidove putem strateškog sadržaja, SEO optimizacije, društvenih mreža i plaćenih kampanja.",
+      "description-2": "Čovek iz senke koji osigurava da tvoj sajt ne padne i kada svi kliknu odjednom. Pokriva ceo razvojni proces - od baze podataka i servera, do vizuelnog prikaza. Garantuje stabilnost, brzinu i funkcionalnost svakog sajta.",
+      "description-3": "Specijalizovan za korisnički interfejs, UX i vizuelni deo svakog sajta. Razvija moderne korisničke interfejse i optimizuje sajtove za pretraživače, obezbeđujući bolju vidljivost i veću posetu kroz efikasne SEO strategije.",
+      "description-4": "Piše kao da te poznaje, a prodaje kao da ne pokušava! Od izrade sekvenci, kroz dizajn do A/B testiranja i analize učinka - stvara email kampanje koje komuniciraju, grade lojalonst i prodaju",
+      "description-5": "Njegove fotografije nisu samo lepe - one pričaju priču vašeg brenda. Specijalizovan za produkt, lifestyle i portret fotografiju. Osigurava da svaka fotografija šalje pravu poruku i osigurava identitet brenda.",
+      "description-6": "Ume da napravi videe koji se gledaju do kraja. Kreira dinamičan video sadržaj za društvene mreže i kampanje. Od snimanja do montaže - sve u skladu sa ciljevima brenda."
     }
   },
   "blog": {

@@ -36,9 +36,9 @@ const poppins = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Pistać Media',
+  title: 'Pistać Media | Digitalne strategije koje donose rezultate',
   description:
-    'Da bi vaš brend bio primećen i uspešan, potreban je moćan miks strategije, dizajna i sadržaja. Naš tim kreira moderne web sajtove, aplikacije i kompletan sadržaj za društvene mreže – od short videa do edukativnih vizuala. Pratimo trendove, biramo prave platforme (Instagram, TikTok, LinkedIn...) i vodimo vaše online prisustvo od A do Š.',
+    'Pomazemo brendovima da rastu online - kroz sadrzaj koji se pamti, kampanje koje prodaju i strategije koje traju.',
 };
 
 export default async function LocaleLayout({

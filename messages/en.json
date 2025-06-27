@@ -1,10 +1,11 @@
 {
   "Home": {
     "Header": {
-      "h1": "Your vision. Our technology. Mutual success.",
-      "p-1": "We create modern websites, applications, and digital campaigns that boost your visibility and sales.",
-      "link": "Request a free consultation",
-      "p-2": "The first consultation is completely free and without obligation."
+      "h1": "Your vision, our mission. Digital strategies that deliver results.",
+      "p-1": "In a world of endless scrolling, your brand deserves attention – with memorable content, campaigns that convert, and strategies built to last.",
+      "link-1": "Book a free consultation",
+      "link-2": "Our services",
+      "p-2": "**your first consultation is completely free and without obligation**"
     },
     "WhyChooseUs": {
       "badge": "Why choose us?",
@@ -91,13 +92,43 @@
       "p-1": "We help you build a strong online presence – from modern websites to powerful applications and result-driven digital marketing.",
       "button-1": "Contact us",
       "button-2": "View our offer"
+    },
+    "ServicesList": {
+      "badge": "Explore our services",
+
+      "title-1": "Social Media Management",
+      "description-1": "We don’t manage profiles just to 'post something' – we create content that builds trust, engages audiences, and drives action. From content planning, copywriting, and design to analysis and optimization – a complete SMM service focused on growth and conversion.",
+
+      "title-2": "Content Creation",
+      "description-2": "Content that doesn’t get scrolled past – it captures attention! We craft visual stories through product and lifestyle photography and platform-specific video formats. Whether working with your brand guidelines or creating new ones – our focus is always on quality, clarity, and aesthetics.",
+
+      "title-3": "Meta & Google Advertising",
+      "description-3": "Paid ads with purpose and results! We create and manage campaigns through Meta Ads (Instagram & Facebook) and Google Ads with precise targeting, budget control, and conversion tracking. We optimize every step – from visuals and text to audience and performance.",
+
+      "title-4": "Influencer Marketing",
+      "description-4": "The right people. The right audience. Real impact. We connect brands with relevant micro and macro influencers who communicate authentically. We manage execution, track performance, and ensure meaningful collaborations – for your brand and your audience.",
+
+      "title-5": "Email Marketing",
+      "description-5": "Straight to the inbox, not the spam folder! We design and write newsletters, automations, and sequences that not only reach users but convert them. Whether your goal is awareness, loyalty, or sales – email remains one of the most effective channels.",
+
+      "title-6": "Website Development",
+      "description-6": "A website made just for you – no templates and lightning-fast loading! We build custom websites tailored to your brand’s needs. From UX design and mobile optimization to integrations and contact forms – your website will be more than a digital business card. It’ll be your top seller.",
+
+      "title-7": "SEO Optimization",
+      "description-7": "More visitors. Better ranking. Organic growth. We optimize content, technical structure, and user experience to boost your Google ranking. From keywords to meta data – our SEO strategy is measurable and long-term.",
+
+      "title-8": "Professional Photography",
+      "description-8": "Photos that build trust. We create images that tell your brand story without saying a word – whether it's product, lifestyle, or portrait photography. Every frame is carefully planned to look professional and deliver a clear message.",
+
+      "title-9": "Video Production",
+      "description-9": "From concept to edit – video content that doesn’t get skipped. Script, filming, editing, color grading, and optimization. We create videos that look professional, sound authentic, and deliver results."
     }
   },
   "AboutPage": {
     "Header": {
-      "badge": "What we do",
-      "h2": "We build lasting digital solutions.",
-      "p-1": "<p>To make your brand visible, engaging, and relevant in the digital space, it's essential to follow current trends and create diverse, high-quality content. This includes dynamic <b>story formats, informative and visually appealing posts</b>, and short-form video content that drives interaction.</p><p>Presence on key platforms like Instagram, TikTok, LinkedIn, Twitter, and Pinterest depends on your industry and target audience – and that’s where we come in.</p><p>Our team manages your entire social media presence: from strategy and content creation to analytics and daily audience communication. You focus on your business – we handle the digital.</p>"
+      "badge": "What do we do?",
+      "h2": "We don’t just create content! We build strategies that sell and deliver results!",
+      "p-1": "<p>At Pistać Media, we don’t offer pre-made templates. We approach every brand as a unique story – with clear goals, a distinct audience, and a specific energy. Our work begins with listening and understanding.</p><p>We merge strategy with aesthetics. We don’t follow trends — we create them! We craft purposeful content, optimize it for performance, and deliver story, photo, carousel, and/or short-form video formats that get results.</p><p>Whether you're a small brand just starting out or an established company in a growth phase – we’re here to make your vision recognizable, consistent, and profitable.</p>"
     },
     "Mission": {
       "badge": "Our Mission",
@@ -134,7 +165,7 @@
     },
     "Vision": {
       "badge": "Our Vision",
-      "h2": "Our vision is to create a sustainable, inclusive, and creative digital space where brands not only grow, but leave a positive mark on the community and culture.",
+      "h2": "We create a sustainable, inclusive, and creative digital space where brands don’t just grow — they leave a positive impact on the community and culture.",
       "p-1": "<p>Clients are at the heart of everything we do. We build long-term relationships based on trust, adapt to their needs, and deliver solutions that inspire, push boundaries, and stand out in the digital world.</p><p>We believe visual appeal, social responsibility, cultural relevance, and creativity are not options – they are the standards every brand deserves.</p>",
       "card-1": {
         "title": "Client-centric approach",
@@ -165,10 +196,14 @@
       "h1": "Our Clients"
     },
     "OurTeam": {
-      "badge": "Our team",
-      "description-1": "Drives brand awareness and lead generation through strategic content, SEO, social media, and paid campaigns.",
-      "description-2": "Builds and maintains scalable server-side logic, APIs, and databases to support seamless application performance.",
-      "description-3": "Develops modern user interfaces and optimizes websites for search engines, ensuring better visibility and increased traffic through effective SEO strategies."
+      "badge": "Our Team",
+      "p-1": "We’re not just a team that “gets the job done.” We’re people who understand digital, love aesthetics, and know how to turn ideas into results. Each member of our team brings unique expertise and perspective, but we all share the same mission – to make your brand visible, relevant, and recognizable in the digital world.",
+      "description-1": "Manages social channels to make users click, follow, and want to buy. Increases brand awareness, analyzes metrics, and generates leads through strategic content, SEO optimization, social media, and paid campaigns.",
+      "description-2": "The person behind the scenes making sure your site won’t crash even when everyone clicks at once. Handles the entire development process – from database and server to front-end visuals. Ensures stability, speed, and functionality for every site.",
+      "description-3": "Specialized in UI, UX, and the visual layer of every website. Builds modern user interfaces and optimizes sites for search engines, ensuring greater visibility and higher traffic through effective SEO strategies.",
+      "description-4": "Writes like they know you, and sells like they’re not even trying! From sequences and design to A/B testing and performance analytics – crafts email campaigns that communicate, build loyalty, and drive sales.",
+      "description-5": "His photos aren’t just beautiful – they tell the story of your brand. Specialized in product, lifestyle, and portrait photography. Makes sure every photo sends the right message and strengthens your brand identity.",
+      "description-6": "Knows how to create videos people watch to the end. Produces dynamic video content for social media and campaigns. From filming to editing – everything aligned with your brand’s goals."
     }
   },
   "blog": {

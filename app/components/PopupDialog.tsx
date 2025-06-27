@@ -16,7 +16,7 @@ export default function PopupDialog() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => setShow(true), 5_000); // 5 seconds
+    const timer = setTimeout(() => setShow(true), 12_000); // 5 seconds
     return () => clearTimeout(timer);
   }, []);
 

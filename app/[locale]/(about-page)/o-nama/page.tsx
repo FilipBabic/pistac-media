@@ -5,6 +5,10 @@ import OurMission from '@/app/components/services-page/OurMission';
 import OurVision from '@/app/components/services-page/OurVision';
 import ClientsCarousel from '@/app/components/about-page/ClientsCarousel';
 import OurTeamSection from '@/app/components/about-page/OurTeamSection';
+// export const metadata = {
+//   title: 'O nama - My Website',
+//   description: 'Learn more about our team, mission, and values.',
+// };
 const AboutPage = () => {
   return (
     <PageLayout>

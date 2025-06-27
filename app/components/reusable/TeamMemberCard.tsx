@@ -16,7 +16,7 @@ export default function TeamMemberCard({
   imageSrc,
 }: TeamMemberCardProps) {
   return (
-    <Card className="border-border bg-primary-dark h-full rounded-2xl border p-6 text-center shadow-none">
+    <Card className="border-border bg-primary-dark h-full rounded-2xl border py-6 text-center shadow-none">
       <CardContent className="flex flex-col items-center space-y-4">
         <div className="border-muted relative h-24 w-24 overflow-hidden rounded-full border">
           <Image
@@ -31,7 +31,7 @@ export default function TeamMemberCard({
           <h3 className="text-lg font-semibold text-green-700">{name}</h3>
           <p className="text-sm font-semibold text-white">{title}</p>
         </div>
-        <p className="text-secondary text-sm text-balance">{description}</p>
+        <p className="text-secondary text-left text-sm">{description}</p>
       </CardContent>
     </Card>
   );
