@@ -68,6 +68,16 @@ h6 {
   font-family: var(--font-bebas);
 }
 
+.text-stroke {
+  -webkit-text-stroke: 0.25px #b3b377; /* Outline thickness and color */
+  -webkit-text-fill-color: white; /* Inner color */
+  text-shadow:
+    -0.25px -0.25px 0 #b3b377,
+    0.25px -0.25px 0 #b3b377,
+    -0.25px 0.25px 0 #b3b377,
+    0.25px 0.25px 0 #b3b377;
+}
+
 @keyframes slideInLeft {
   0% {
     transform: translateX(-100%);

@@ -28,23 +28,23 @@
       "p-1": "Our services are tailored to support your business at every stage of digital transformation.",
       "button": "Learn more",
       "Cards": {
-        "title-1": "Website Development",
-        "title-2": "Web Application Development",
-        "title-3": "Digital Marketing",
+        "title-1": "Digital Marketing",
+        "title-2": "Website Development",
+        "title-3": "Web Application Development",
         "Bullets-1": {
+          "content-1": "Google & Meta advertising",
+          "content-2": "Social media management",
+          "content-3": "Email & content marketing"
+        },
+        "Bullets-2": {
           "content-1": "Modern and fast websites",
           "content-2": "Mobile optimization",
           "content-3": "SEO-friendly structure"
         },
-        "Bullets-2": {
+        "Bullets-3": {
           "content-1": "Full-stack solutions",
           "content-2": "Custom CMS and admin panels",
           "content-3": "API integrations"
-        },
-        "Bullets-3": {
-          "content-1": "Google & Meta advertising",
-          "content-2": "Social media management",
-          "content-3": "Email & content marketing"
         }
       }
     },
@@ -262,6 +262,17 @@
       "terms": "Terms of Use",
       "contact": "Contact us"
     }
+  },
+  "SubscriptionForm": {
+    "greeting": "Greetings from the Pistać Media team!",
+    "title": "Subscribe to our newsletter and be the first to receive the latest updates",
+    "name": "Name",
+    "name-placeholder": "Enter your name",
+    "email": "Email",
+    "email-placeholder": "Enter your email address",
+    "message": "Your message",
+    "message-placeholder": "Send us a message if you wish",
+    "subscribe-button": "Subscribe"
   },
   "NotFoundPage": {
     "title": "Page Not Found",

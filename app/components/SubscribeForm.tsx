@@ -3,6 +3,7 @@
 
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
+import { useTranslations } from 'next-intl';
 
 import {
   Form,
@@ -18,6 +19,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { subscribeFormSchema, SubscribeFormValues } from '@/lib/validations';
 
 export function SubscribeForm() {
+  const t = useTranslations('SubscriptionForm');
   const form = useForm<SubscribeFormValues>({
     resolver: zodResolver(subscribeFormSchema),
     defaultValues: {
@@ -40,9 +42,13 @@ export function SubscribeForm() {
           name="name"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Name</FormLabel>
+              <FormLabel>{t('name')}</FormLabel>
               <FormControl>
-                <Input autoComplete="name" placeholder="John Doe" {...field} />
+                <Input
+                  autoComplete="name"
+                  placeholder={t('name-placeholder')}
+                  {...field}
+                />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -54,12 +60,12 @@ export function SubscribeForm() {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Email</FormLabel>
+              <FormLabel>{t('email')}</FormLabel>
               <FormControl>
                 <Input
                   autoComplete="email"
                   type="email"
-                  placeholder="john@example.com"
+                  placeholder={t('email-placeholder')}
                   {...field}
                 />
               </FormControl>
@@ -73,11 +79,11 @@ export function SubscribeForm() {
           name="message"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Message</FormLabel>
+              <FormLabel>{t('message')}</FormLabel>
               <FormControl>
                 <Textarea
                   rows={5}
-                  placeholder="Your message here..."
+                  placeholder={t('message-placeholder')}
                   {...field}
                 />
               </FormControl>
@@ -91,7 +97,7 @@ export function SubscribeForm() {
           variant="secondary"
           className="bg-primary-dark text-primary w-full font-bold"
         >
-          Subscribe
+          {t('subscribe-button')}
         </Button>
       </form>
     </Form>

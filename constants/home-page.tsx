@@ -11,9 +11,9 @@ import {
 export const getServices = (t: (key: string) => string) => [
   {
     title: t('Cards.title-1'),
-    icon: <LayoutTemplateIcon className="mb-0 h-12 w-12 text-green-600" />,
-    color: 'text-green-600',
-    bulletColor: 'text-green-500',
+    icon: <MegaphoneIcon className="mb-0 h-12 w-12 text-purple-600" />,
+    color: 'text-purple-600',
+    bulletColor: 'text-purple-500',
     bullets: [
       t('Cards.Bullets-1.content-1'),
       t('Cards.Bullets-1.content-2'),
@@ -22,9 +22,9 @@ export const getServices = (t: (key: string) => string) => [
   },
   {
     title: t('Cards.title-2'),
-    icon: <GlobeIcon className="mb-0 h-12 w-12 text-blue-600" />,
-    color: 'text-blue-600',
-    bulletColor: 'text-blue-500',
+    icon: <LayoutTemplateIcon className="mb-0 h-12 w-12 text-green-600" />,
+    color: 'text-green-600',
+    bulletColor: 'text-green-500',
     bullets: [
       t('Cards.Bullets-2.content-1'),
       t('Cards.Bullets-2.content-2'),
@@ -33,9 +33,9 @@ export const getServices = (t: (key: string) => string) => [
   },
   {
     title: t('Cards.title-3'),
-    icon: <MegaphoneIcon className="mb-0 h-12 w-12 text-purple-600" />,
-    color: 'text-purple-600',
-    bulletColor: 'text-purple-500',
+    icon: <GlobeIcon className="mb-0 h-12 w-12 text-blue-600" />,
+    color: 'text-blue-600',
+    bulletColor: 'text-blue-500',
     bullets: [
       t('Cards.Bullets-3.content-1'),
       t('Cards.Bullets-3.content-2'),

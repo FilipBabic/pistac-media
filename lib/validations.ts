@@ -9,7 +9,9 @@ export const subscribeFormSchema = z.object({
   message: z
     .string()
     .min(10, { message: 'Message must be at least 10 characters.' })
-    .max(1000),
+    .max(1000)
+    .optional()
+    .or(z.literal('')),
 });
 
 export type SubscribeFormValues = z.infer<typeof subscribeFormSchema>;

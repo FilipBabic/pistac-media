@@ -28,23 +28,23 @@
       "p-1": "Naše usluge su prilagođene da podrže vaš biznis kroz svaki korak digitalne transformacije.",
       "button": "Saznaj više",
       "Cards": {
-        "title-1": "Izrada web sajtova",
-        "title-2": "Razvoj web aplikacija",
-        "title-3": "Digitalni marketing",
+        "title-1": "Digitalni marketing",
+        "title-2": "Izrada web sajtova",
+        "title-3": "Razvoj web aplikacija",
         "Bullets-1": {
+          "content-1": "Google & Meta oglašavanje",
+          "content-2": "Upravljanje društvenim mrežama",
+          "content-3": "Email & content marketing"
+        },
+        "Bullets-2": {
           "content-1": "Moderne i brze stranice",
           "content-2": "Mobilna optimizacija",
           "content-3": "SEO friendly struktura"
         },
-        "Bullets-2": {
+        "Bullets-3": {
           "content-1": "Full-stack rešenja",
           "content-2": "Prilagođeni CMS i admin paneli",
           "content-3": "API integracije"
-        },
-        "Bullets-3": {
-          "content-1": "Google & Meta oglašavanje",
-          "content-2": "Upravljanje društvenim mrežama",
-          "content-3": "Email & content marketing"
         }
       }
     },
@@ -262,6 +262,17 @@
       "terms": "Uslovi korišćenja",
       "contact": "Kontaktirajte nas"
     }
+  },
+  "SubscriptionForm": {
+    "greeting": "Pozdrav od Pistać Media tima!",
+    "title": "Prijavite se na naš newsletter i prvi saznajte najnovije informacije",
+    "name": "Ime",
+    "name-placeholder": "Unesite ime",
+    "email": "Email",
+    "email-placeholder": "Unesite email adresu",
+    "message": "Vaša poruka",
+    "message-placeholder": "Pošaljite nam poruku, ukoliko želite",
+    "subscribe-button": "Prijavite se"
   },
   "Manifest": {
     "name": "Pistać Media | Digitalni Marketing, Izrada Web sajtova i aplikacija, SEO optimizacija"

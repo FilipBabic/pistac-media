@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { DialogDescription } from '@radix-ui/react-dialog';
+import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 import {
   Dialog,
@@ -13,6 +15,7 @@ import {
 import { SubscribeForm } from './SubscribeForm';
 
 export default function PopupDialog() {
+  const t = useTranslations('SubscriptionForm');
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -23,10 +26,21 @@ export default function PopupDialog() {
   return (
     <Dialog open={show} onOpenChange={setShow}>
       <DialogContent>
-        <DialogDescription>Hello There!</DialogDescription>
+        <div style={{ position: 'relative', width: 120, height: 50 }}>
+          <Image
+            src="/assets/icons/pistac-media-logo.png"
+            alt="Logo"
+            fill
+            sizes="120px"
+            priority
+            style={{ objectFit: 'contain' }}
+            className="bg-primary-dark items-center"
+          />
+        </div>
+        <DialogDescription>{t('greeting')}</DialogDescription>
         <DialogHeader>
-          <DialogTitle className="text-green-600">
-            Subscribe and Stay Ahead with Exclusive Insights
+          <DialogTitle className="text-left text-green-600">
+            {t('title')}
           </DialogTitle>
         </DialogHeader>
         <SubscribeForm />

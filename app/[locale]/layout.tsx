@@ -61,8 +61,8 @@ export default async function LocaleLayout({
           <Navbars />
           {children}
           <Footer />
+          <PopupDialog />
         </NextIntlClientProvider>
-        <PopupDialog />
         <Analytics />
       </body>
     </html>

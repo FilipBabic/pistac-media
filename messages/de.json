@@ -28,23 +28,23 @@
       "p-1": "Unsere Dienstleistungen sind darauf ausgelegt, Ihr Unternehmen in jeder Phase der digitalen Transformation zu unterstützen.",
       "button": "Mehr erfahren",
       "Cards": {
-        "title-1": "Website-Erstellung",
-        "title-2": "Webanwendungsentwicklung",
-        "title-3": "Digitales Marketing",
+        "title-1": "Digitales Marketing",
+        "title-2": "Website-Erstellung",
+        "title-3": "Webanwendungsentwicklung",
         "Bullets-1": {
+          "content-1": "Google & Meta Werbung",
+          "content-2": "Social-Media-Management",
+          "content-3": "E-Mail- & Content-Marketing"
+        },
+        "Bullets-2": {
           "content-1": "Moderne und schnelle Websites",
           "content-2": "Mobile Optimierung",
           "content-3": "SEO-freundliche Struktur"
         },
-        "Bullets-2": {
+        "Bullets-3": {
           "content-1": "Full-Stack-Lösungen",
           "content-2": "Individuelle CMS und Admin-Panels",
           "content-3": "API-Integrationen"
-        },
-        "Bullets-3": {
-          "content-1": "Google & Meta Werbung",
-          "content-2": "Social-Media-Management",
-          "content-3": "E-Mail- & Content-Marketing"
         }
       }
     },
@@ -262,6 +262,17 @@
       "terms": "Nutzungsbedingungen",
       "contact": "Kontaktieren Sie uns"
     }
+  },
+  "SubscriptionForm": {
+    "greeting": "Grüße vom Pistać Media Team!",
+    "title": "Abonnieren Sie unseren Newsletter und erhalten Sie als Erste die neuesten Informationen",
+    "name": "Name",
+    "name-placeholder": "Geben Sie Ihren Namen ein",
+    "email": "E-Mail",
+    "email-placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "message": "Ihre Nachricht",
+    "message-placeholder": "Senden Sie uns eine Nachricht, wenn Sie möchten",
+    "subscribe-button": "Abonnieren"
   },
   "NotFoundPage": {
     "title": "Seite nicht gefunden",
