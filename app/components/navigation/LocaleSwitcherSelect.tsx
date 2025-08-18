@@ -32,7 +32,7 @@ export default function LocaleSwitcherSelect({
   return (
     <label
       className={clsx(
-        'font-bebas text-primary relative text-lg',
+        'font-bebas relative text-lg text-white',
         isPending && 'transition-opacity [&:disabled]:opacity-50',
       )}
     >

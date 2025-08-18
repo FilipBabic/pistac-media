@@ -12,7 +12,7 @@ export default function ServicesSection() {
   const services = getServices(t);
   return (
     <section className="py-10 text-white">
-      <Badge className="bg-secondary border-primary-500 mb-4 text-left text-lg text-white">
+      <Badge className="bg-secondary mb-4 border-1 border-white text-lg text-white">
         {t('badge')}
       </Badge>
       <div className="mx-auto max-w-6xl px-4 py-10 text-center">

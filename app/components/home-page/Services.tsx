@@ -20,11 +20,11 @@ export default function ServicesSection() {
   return (
     <section className="gap-6 py-10 md:py-20">
       <div className="mb-12">
-        <Badge className="bg-secondary border-primary-500 mb-4 text-lg text-white">
+        <Badge className="bg-secondary mb-4 border-1 border-white text-lg text-white">
           {t('badge')}
         </Badge>
         <h2 className="text-3xl font-bold text-white md:text-5xl">{t('h2')}</h2>
-        <p className="mt-4 max-w-2xl text-lg text-gray-700 md:text-xl">
+        <p className="mt-4 max-w-2xl text-lg text-gray-700 md:text-xl dark:text-gray-400">
           {t('p-1')}
         </p>
       </div>

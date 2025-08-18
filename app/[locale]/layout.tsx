@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
+import { ThemeProvider } from 'next-themes';
 
 import { routing } from '@/i18n/routing';
 
@@ -53,16 +54,18 @@ export default async function LocaleLayout({
     notFound();
   }
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <body
         className={`${poppins.className} ${roboto.variable} ${anton.variable} ${bebas.variable} antialiased`}
       >
-        <NextIntlClientProvider>
-          <Navbars />
-          {children}
-          <Footer />
-          <PopupDialog />
-        </NextIntlClientProvider>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <NextIntlClientProvider>
+            <Navbars />
+            {children}
+            <Footer />
+            <PopupDialog />
+          </NextIntlClientProvider>
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>

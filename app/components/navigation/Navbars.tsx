@@ -28,7 +28,7 @@ export default function Navbars() {
   return (
     <>
       {/* Sentinel element to detect scroll past this point */}
-      <div ref={sentinelRef} className="bg-primary-dark h-1" />
+      <div ref={sentinelRef} className="bg-primary h-1" />
 
       {/* Sticky navbar */}
       <div

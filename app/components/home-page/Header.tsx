@@ -13,16 +13,16 @@ export default function Header() {
       <section className="animate-slide-in-left flex flex-col items-center justify-center px-6 text-center">
         <AnimatedWords
           text={t('h1')}
-          className="mb-4 text-4xl leading-tight font-extrabold text-[#b6b687] md:text-6xl"
+          className="dark:text-secondary mb-4 text-4xl leading-tight font-extrabold text-white md:text-6xl"
         />
-        <p className="mb-8 max-w-2xl text-lg text-gray-700 md:text-xl">
+        <p className="mb-8 max-w-2xl text-lg text-gray-700 md:text-xl dark:text-white">
           {t('p-1')}
         </p>
-        <div className="mt-6 flex flex-row justify-center gap-4 text-gray-700 sm:justify-start">
+        <div className="text-primary-dark mt-6 flex flex-row justify-center gap-4 sm:justify-start dark:text-white">
           <Link href="/contact">
             <Button
               variant="outline"
-              className="hover:bg-primary bg-white text-base hover:cursor-pointer"
+              className="bg-white text-base hover:cursor-pointer hover:bg-gray-100"
             >
               {t('link-1')}
             </Button>
@@ -30,7 +30,7 @@ export default function Header() {
           <Link href="/services">
             <Button
               variant="outline"
-              className="hover:bg-primary bg-white text-base hover:cursor-pointer"
+              className="bg-white text-base hover:cursor-pointer hover:bg-gray-100"
             >
               {t('link-2')}
             </Button>
@@ -48,8 +48,8 @@ export default function Header() {
       </section>
       <div className="relative h-96 w-full rounded-2xl md:h-240 lg:h-[500px]">
         <Image
-          src="/assets/images/working-table.jpg"
-          alt="Women With Megaphone"
+          src="/assets/images/digitalni-marketing-agencija.png"
+          alt="Phone In Woman Hand With Digital Marketing Plan Blurred in Background"
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 50vw"
           className="rounded-md object-cover p-4 sm:object-contain sm:p-0"

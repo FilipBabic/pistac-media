@@ -24,10 +24,10 @@ export default function ReusableSection({
           <Badge className="bg-secondary mb-4 border-1 border-white text-lg text-white">
             {t('badge')}
           </Badge>
-          <h2 className="text-stroke font-bebas text-3xl font-bold text-white md:text-5xl">
+          <h2 className="font-bebas text-3xl font-bold text-white md:text-5xl">
             {t('h2')}
           </h2>
-          <div className="mt-4 max-w-3xl text-left text-base text-gray-700 md:text-xl">
+          <div className="dark:text-primary mt-4 max-w-3xl text-left text-base text-gray-700 md:text-xl">
             {t.rich('p-1', {
               p: (chunks) => <p className="mt-4">{chunks}</p>,
               b: (chunks) => <b>{chunks}</b>,

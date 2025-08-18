@@ -27,7 +27,7 @@ const AboutPage = () => {
         translation="AboutPage.Vision"
         buttons={false}
         image={true}
-        imageUrl="/assets/images/digital-marketing-ilustration-2.png"
+        imageUrl="/assets/images/digitalne-usluge-rezultati.png"
       />
       <OurVision />
       <Separator className="mt-20" />

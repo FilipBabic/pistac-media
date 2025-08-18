@@ -11,23 +11,23 @@ export default function Header() {
     <section className="gap-6 py-10 md:py-20">
       <div className="mb-12 flex flex-col items-center justify-between gap-8 text-left text-gray-700 md:flex-row">
         <div className="w-full text-center sm:text-left md:w-2/3">
-          <Badge className="bg-secondary border-primary-500 mb-4 text-lg text-white">
+          <Badge className="bg-secondary mb-4 border-1 border-white text-lg text-white">
             {t('badge')}
           </Badge>
           <h2 className="font-bebas text-3xl font-bold text-white md:text-5xl">
             {t('h1')}
           </h2>
-          <p className="mt-4 max-w-2xl text-lg text-balance text-gray-700 md:text-xl">
+          <p className="dark:text-primary mt-4 max-w-2xl text-lg text-balance text-gray-700 md:text-xl">
             {t('p-1')}
           </p>
-          <div className="mt-6 flex flex-row justify-center gap-4 text-gray-700 sm:justify-start">
+          <div className="text-primary-dark mt-6 flex flex-row justify-center gap-4 sm:justify-start dark:text-white">
             <Link href="/kontakt">
-              <Button variant="outline" className="hover:bg-primary bg-white">
+              <Button variant="outline" className="bg-white hover:bg-gray-100">
                 {t('button-1')}
               </Button>
             </Link>
             <Link href="#ponuda">
-              <Button variant="outline" className="hover:bg-primary bg-white">
+              <Button variant="outline" className="bg-white hover:bg-gray-100">
                 {t('button-2')}
               </Button>
             </Link>

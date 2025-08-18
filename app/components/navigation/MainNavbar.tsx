@@ -2,6 +2,8 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
 
+import { ThemeToggle } from '../ThemeToggle';
+
 import LocaleSwitcher from './LocaleSwitcher';
 import NavigationLink from './NavigationLink';
 import MobileNavigation from './MobileNavigation';
@@ -10,7 +12,7 @@ export default function MainNavbar() {
   const t = useTranslations('Navigation');
 
   return (
-    <nav className="bg-primary-dark px-4 py-2 text-base md:text-xl">
+    <nav className="bg-primary px-4 py-2 text-base md:text-xl">
       <div className="relative flex w-full items-center justify-between">
         {/* Left Section */}
         <div className="flex items-center gap-2">
@@ -74,7 +76,8 @@ export default function MainNavbar() {
         </div>
 
         {/* Right Section */}
-        <div className="flex justify-end">
+        <div className="flex items-end space-y-2">
+          <ThemeToggle />
           <LocaleSwitcher />
         </div>
       </div>
