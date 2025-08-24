@@ -10,15 +10,15 @@ export default function Header() {
   const t = useTranslations('Home.Header');
   return (
     <header className="flex w-full flex-col items-center justify-center py-10 text-white sm:py-14 md:flex-row">
-      <section className="animate-slide-in-left flex flex-col items-center justify-center px-6 text-center">
+      <section className="animate-slide-in-left flex w-full flex-col items-center justify-center text-center md:px-1">
         <AnimatedWords
           text={t('h1')}
           className="dark:text-secondary mb-4 text-4xl leading-tight font-extrabold text-white md:text-6xl"
         />
-        <p className="mb-8 max-w-2xl text-lg text-gray-700 md:text-xl dark:text-white">
+        <p className="mb-2 max-w-2xl text-lg text-gray-700 md:mb-8 md:text-xl dark:text-white">
           {t('p-1')}
         </p>
-        <div className="text-primary-dark mt-6 flex flex-row justify-center gap-4 sm:justify-start dark:text-white">
+        <div className="text-primary-dark flex flex-col justify-center gap-2 sm:justify-start md:flex-row md:gap-4 dark:text-white">
           <Link href="/contact">
             <Button
               variant="outline"

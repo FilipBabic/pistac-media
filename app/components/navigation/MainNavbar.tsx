@@ -16,12 +16,24 @@ export default function MainNavbar() {
       <div className="relative flex w-full items-center justify-between">
         {/* Left Section */}
         <div className="flex items-center gap-2">
-          {/* Mobile Navigation */}
-          <div className="block md:hidden">
+          {/* Mobile: Menu + Logo */}
+          <div className="flex items-center md:hidden">
             <MobileNavigation />
+            <Link href="/">
+              <div style={{ position: 'relative', width: 120, height: 50 }}>
+                <Image
+                  src="/assets/icons/pistac-media-logo.png"
+                  alt="Logo"
+                  fill
+                  sizes="120px"
+                  priority
+                  style={{ objectFit: 'contain' }}
+                />
+              </div>
+            </Link>
           </div>
 
-          {/* Logo (Desktop Only) */}
+          {/* Desktop: Logo only */}
           <div className="hidden md:block">
             <Link href="/">
               <div style={{ position: 'relative', width: 120, height: 50 }}>
@@ -32,7 +44,6 @@ export default function MainNavbar() {
                   sizes="120px"
                   priority
                   style={{ objectFit: 'contain' }}
-                  className="items-center"
                 />
               </div>
             </Link>
@@ -40,26 +51,9 @@ export default function MainNavbar() {
         </div>
 
         {/* Center Section */}
-        <div className="absolute left-1/2 flex -translate-x-1/2 items-center">
-          {/* Mobile: Centered Logo */}
-          <div className="block md:hidden">
-            <Link href="/">
-              <div style={{ position: 'relative', width: 120, height: 50 }}>
-                <Image
-                  src="/assets/icons/pistac-media-logo.png"
-                  alt="Logo"
-                  fill
-                  sizes="120px"
-                  priority
-                  style={{ objectFit: 'contain' }}
-                  className="items-left"
-                />
-              </div>
-            </Link>
-          </div>
-
-          {/* Desktop: Navigation Links */}
-          <div className="hidden gap-1 md:flex">
+        <div className="absolute left-1/2 hidden -translate-x-1/2 items-center md:flex">
+          {/* Desktop Navigation Links */}
+          <div className="flex gap-1">
             <NavigationLink href="/">{t('home').toUpperCase()}</NavigationLink>
             <NavigationLink href="/about">
               {t('about').toUpperCase()}
@@ -76,7 +70,7 @@ export default function MainNavbar() {
         </div>
 
         {/* Right Section */}
-        <div className="flex items-end space-y-2">
+        <div className="flex items-center">
           <ThemeToggle />
           <LocaleSwitcher />
         </div>

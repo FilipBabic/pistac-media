@@ -6,7 +6,7 @@ export default function BottomFooter() {
   return (
     <div className="bg-primary-dark text-primary mt-auto">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between px-4 py-6 md:flex-row">
-        <p className="text-sm">
+        <p className="text-sm text-white">
           &copy; {new Date().getFullYear()} Pistać Media. {t('rights')}.
         </p>
         <div className="mt-2 flex space-x-4 md:mt-0">

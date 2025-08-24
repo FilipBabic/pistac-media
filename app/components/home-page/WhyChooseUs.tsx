@@ -12,7 +12,7 @@ export default function WhyChooseUs() {
   return (
     <section className="gap-6 py-10 md:py-20">
       <div className="mb-12 flex flex-col items-center justify-start text-left text-gray-700 md:flex-row">
-        <div className="w-full md:w-2/3">
+        <div className="mb-4 w-full md:w-2/3">
           <Badge className="bg-secondary mb-4 border-1 border-white text-lg text-white">
             {t('badge')}
           </Badge>
@@ -24,24 +24,20 @@ export default function WhyChooseUs() {
           </p>
         </div>
 
-        <div className="relative w-full max-w-xs md:w-1/3 md:max-w-sm">
+        <div className="relative aspect-square w-full max-w-xs md:w-1/3 md:max-w-sm">
           <motion.div
-            initial={{ opacity: 0 }} // Start 100px below
-            whileInView={{ opacity: 1 }} // Animate to natural position
-            transition={{
-              duration: 1.6,
-              delay: 0.2, // Staggered by index
-              ease: 'easeOut',
-            }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1.6, delay: 0.2, ease: 'easeOut' }}
             viewport={{ once: true }}
+            className="relative h-full w-full"
           >
             <Image
               src="/assets/images/digitalni-uspeh-strategija.png"
               alt="Woman With Megaphone"
-              width={400}
-              height={400}
-              className="object-contain"
+              fill
               priority
+              className="object-contain"
               sizes="(max-width: 768px) 80vw, (max-width: 1200px) 40vw, 25vw"
             />
           </motion.div>

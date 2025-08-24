@@ -4,7 +4,7 @@
       "h1": "Your vision, our mission. Digital strategies that deliver results.",
       "p-1": "In a world of endless scrolling, your brand deserves attention – with memorable content, campaigns that convert, and strategies built to last.",
       "link-1": "Book a free consultation",
-      "link-2": "Our services",
+      "link-2": "Explore our services",
       "p-2": "**your first consultation is completely free and without obligation**"
     },
     "WhyChooseUs": {
@@ -221,6 +221,13 @@
       "title": "How to Improve Sales of My Services?",
       "excerpt": "<p>In the digital era, quality service alone isn't enough to drive sales. Consumers seek experience, trust, and value—even before contacting you. That's why it's important that your online presence and communication are strategically designed to increase sales.</p><h>1. Clearly Define the Value You Offer</h><p>The first thing a potential client should understand is—why you? Your profile, website, or portfolio must clearly communicate the problems you solve and the specific benefits users gain from your service. Instead of generic 'web design', say: 'I create websites that bring you more clients and better reputation.'</p><h>2. Build Trust Through Content</h><p>People buy from those they trust. Create educational content that showcases your expertise: tutorials, mini case studies, answers to frequently asked questions, and reviews from satisfied clients. Video formats (e.g., “before/after” work showcases) particularly increase credibility and conversion.</p><h>3. Optimize the User Journey</h><p>Sales must be easy and intuitive. If a user can't quickly understand what you offer, how much it costs, and how to contact you—they'll lose interest. A link in bio, simple contact form, clear pricing, and CTAs like 'Schedule a free consultation' can drastically increase inquiries.</p><h>4. Actively Use Social Media as a Sales Channel</h><p>Don't just post 'nice content'—include offers, limited-time deals, service packages, and calls for direct communication. Through stories, posts, and reels, present exactly what the client gets. Communication should be personal, fast, and solution-focused.</p><h>5. Increase Visibility Through Paid Advertising</h><p>Organic growth is important, but if you want faster results, invest in targeted marketing. Facebook and Instagram ads allow you to precisely target people who need your service. Test multiple ad variations, optimize them through metrics, and allocate budget where it yields returns.</p>",
       "description": "Discover effective ways to increase traffic to your social media profiles through profile optimization, creating shareable content, smart use of hashtags, collaborations with other accounts, and data analysis for continuous improvement."
+    }
+  },
+  "PortfolioPage": {
+    "Header": {
+      "badge": "Portfolio",
+      "h2": "Take a look at some of our work",
+      "p-1": "Each project is unique, just like our clients. Explore our portfolio and discover how we can help your business grow."
     }
   },
   "ContactPage": {

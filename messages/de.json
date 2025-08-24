@@ -4,7 +4,7 @@
       "h1": "Ihre Vision, unsere Mission. Digitale Strategien, die Ergebnisse liefern.",
       "p-1": "In einer Welt des endlosen Scrollens verdient Ihre Marke Aufmerksamkeit – mit einprägsamen Inhalten, verkaufsstarken Kampagnen und langfristigen Strategien.",
       "link-1": "Kostenloses Beratungsgespräch vereinbaren",
-      "link-2": "Unsere Leistungen",
+      "link-2": "Entdecken Sie unsere Dienstleistungen",
       "p-2": "**das erste Gespräch ist völlig kostenlos und unverbindlich**"
     },
     "WhyChooseUs": {
@@ -230,6 +230,13 @@
       "p-1": "Wir sind immer für Sie da. Kontaktieren Sie uns gerne über das Formular oder direkt per E-Mail.",
       "button-1": "Nachricht senden",
       "button-2": "Unsere Leistungen ansehen"
+    }
+  },
+  "PortfolioPage": {
+    "Header": {
+      "badge": "Portfolio",
+      "h2": "Werfen Sie einen Blick auf einige unserer Arbeiten",
+      "p-1": "Jedes Projekt ist einzigartig, genau wie unsere Kunden. Entdecken Sie unser Portfolio und sehen Sie, wie wir Ihrem Unternehmen zum Wachstum verhelfen können."
     }
   },
   "PricesPage": {

@@ -19,9 +19,9 @@ export default function ReusableSection({
   const t = useTranslations(`${translation}`);
   return (
     <section className="gap-6 py-10 md:py-20">
-      <div className="mb-12 flex flex-col items-center justify-between gap-8 text-left text-gray-700 md:flex-row">
+      <div className="mb-12 flex flex-col items-center justify-between gap-8 text-left md:flex-row">
         <div className="w-full text-left md:w-2/3">
-          <Badge className="bg-secondary mb-4 border-1 border-white text-lg text-white">
+          <Badge className="bg-secondary mb-4 border-1 border-white text-left text-lg whitespace-normal text-white">
             {t('badge')}
           </Badge>
           <h2 className="font-bebas text-3xl font-bold text-white md:text-5xl">

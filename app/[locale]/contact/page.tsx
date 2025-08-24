@@ -1,4 +1,3 @@
-import { Separator } from '@/components/ui/separator';
 import PageLayout from '@/app/components/PageLayout';
 import ReusableSection from '@/app/components/reusable/ReusableSection';
 
@@ -11,7 +10,6 @@ const ContactPage = () => {
         image={true}
         imageUrl="/assets/images/digital-marketing-team.png"
       />
-      <Separator />
     </PageLayout>
   );
 };

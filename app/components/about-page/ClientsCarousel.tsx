@@ -34,7 +34,7 @@ export default function ClientsCarousel() {
 
   return (
     <div className="relative w-full overflow-hidden bg-[--color-primary-100] py-6">
-      <Badge className="bg-secondary border-primary-500 mb-4 text-lg text-white">
+      <Badge className="bg-secondary mb-4 border-1 border-white text-left text-lg whitespace-normal text-white">
         {t('h1')}
       </Badge>
       <div className="mx-auto w-full max-w-screen-xl">

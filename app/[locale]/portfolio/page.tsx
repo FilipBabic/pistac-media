@@ -1,18 +1,15 @@
-import { Separator } from '@/components/ui/separator';
 import PageLayout from '@/app/components/PageLayout';
 import ReusableSection from '@/app/components/reusable/ReusableSection';
 
 const PortfolioPage = () => {
   return (
     <PageLayout>
-      <h1>PORFTFOLIO</h1>
       <ReusableSection
-        translation="ContactPage.Header"
-        buttons={true}
+        translation="PortfolioPage.Header"
+        buttons={false}
         image={true}
-        imageUrl="/assets/images/digital-marketing-team.png"
+        imageUrl="/assets/images/rukovanje-sa-klijentom.jpg"
       />
-      <Separator />
     </PageLayout>
   );
 };

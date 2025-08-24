@@ -45,7 +45,7 @@ export default function TopFooter() {
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 sm:flex-row">
         {/* Contact Link */}
         <div className="text-center sm:text-left">
-          <h4 className="text-secondary text-lg font-semibold">
+          <h4 className="text-lg font-semibold text-white">
             {t('contact-us')}
           </h4>
           <Link
@@ -65,7 +65,7 @@ export default function TopFooter() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={label}
-              className="hover:text-primary-dark text-gray-700 transition-colors"
+              className="hover:text-primary-dark text-white transition-colors"
             >
               <Icon className="h-5 w-5 transform transition-transform duration-200 hover:scale-120" />
             </Link>

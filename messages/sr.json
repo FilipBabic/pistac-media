@@ -4,7 +4,7 @@
       "h1": "Vaša vizija, naša misija. Digitalne strategije koje donose rezultate.",
       "p-1": "U svetu brzih scrollova, tvoj brend zaslužuje paznju - kroz sadržaj koji se pamti, kampanje koje prodaju i strategije koje traju.",
       "link-1": "Zakaži besplatne konsultacije",
-      "link-2": "Naše usluge",
+      "link-2": "Pogledaj naše usluge",
       "p-2": "**prvi razgovor je potpuno besplatan i bez obaveza**"
     },
     "WhyChooseUs": {
@@ -221,6 +221,13 @@
       "title": "Kako da unapredim prodaju mojih usluga?",
       "excerpt": "<p>U digitalnoj eri, kvalitet usluge više nije dovoljan da bi se prodaja dogodila. Potrošači žele iskustvo, poverenje i vrednost — još pre nego što vas kontaktiraju. Upravo zato je važno da vaša online prisutnost i komunikacija budu strateški osmišljeni sa ciljem povećanja prodaje.</p><h>1. Jasno definišite vrednost koju nudite</h><p>Prva stvar koju potencijalni klijent treba da razume jeste — zašto baš vi? Vaš profil, sajt ili portfolio moraju jasno da komuniciraju koje probleme rešavate i kakvu konkretnu korist korisnik ima od vaše usluge. Umesto generičnog 'web dizajn', recite: 'Kreiram sajtove koji vam donose više klijenata i bolju reputaciju.</p><h>2. Izgradite poverenje kroz sadržaj</h><p>Ljudi kupuju od onih kojima veruju. Kreirajte edukativni sadržaj koji prikazuje vašu stručnost: tutorijali, mini studije slučaja, odgovori na česta pitanja i recenzije zadovoljnih klijenata. Video formati (npr. “before/after” prikazi rada) posebno povećavaju kredibilitet i konverziju.</p><h>3. Optimizujte korisnički put</h><p>Prodaja mora biti laka i intuitivna. Ako korisnik ne može brzo da razume šta nudite, koliko košta i kako da vas kontaktira — izgubiće interesovanje. Link u bio, jednostavan kontakt formular, jasna cena i CTA poput 'Zakaži besplatne konsultacije' mogu drastično povećati broj upita.</p><h>4. Aktivno koristite društvene mreže kao prodajni kanal</h><p>Ne objavljujte samo 'lep sadržaj' — uključite ponude, ograničene akcije, pakete usluga i pozive na direktnu komunikaciju. Kroz storije, objave i reels videe, predstavite šta tačno klijent dobija. Komunikacija treba da bude lična, brza i fokusirana na rešenja.</p><h>5. Povećajte vidljivost kroz plaćeno oglašavanje</h><p>Organski rast je važan, ali ako želite brže rezultate, uložite u ciljani marketing. Facebook i Instagram oglasi omogućavaju da precizno targetirate ljude kojima je potrebna vaša usluga. Testirajte više varijacija oglasa, optimizujte ih kroz metrike i uložite budžet tamo gde daje povrat.</p>",
       "description": "Otkrijte efikasne načine za povećanje posećenosti vaših profila na društvenim mrežama kroz optimizaciju profila, kreiranje deljivog sadržaja, pametno korišćenje heštagova, saradnje sa drugim nalozima i analizu podataka radi konstantnog napretka."
+    }
+  },
+  "PortfolioPage": {
+    "Header": {
+      "badge": "Portfolio",
+      "h2": "Pogledajte neke od naših radova",
+      "p-1": "Svaki projekat je jedinstven, baš kao i naši klijenti. Istražite naš portfolio i otkrijte kako možemo pomoći vašem biznisu."
     }
   },
   "ContactPage": {

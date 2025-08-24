@@ -43,7 +43,9 @@ export default function ServicesSection() {
               <Card className="border-primary-dark bg-white transition duration-300 hover:shadow-xl">
                 <CardHeader className="flex items-center space-x-4">
                   {service.icon}
-                  <CardTitle>{service.title}</CardTitle>
+                  <CardTitle className="text-primary-dark text-2xl">
+                    {service.title}
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="mb-4 space-y-2 text-sm text-gray-700">

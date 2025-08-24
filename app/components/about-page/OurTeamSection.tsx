@@ -8,10 +8,10 @@ export default function OurTeamSection() {
   const t = useTranslations('AboutPage.OurTeam');
   return (
     <section className="py-12">
-      <Badge className="bg-secondary border-primary-500 mb-4 text-lg text-white">
+      <Badge className="bg-secondary mb-4 border-1 border-white text-left text-lg whitespace-normal text-white">
         {t('badge')}
       </Badge>
-      <div className="mt-4 mb-10 text-left text-base text-gray-700 md:text-xl">
+      <div className="dark:text-primary mt-4 mb-10 text-left text-base text-gray-700 md:text-xl">
         {t.rich('p-1', {
           p: (chunks) => <p className="mt-4">{chunks}</p>,
           b: (chunks) => <b>{chunks}</b>,

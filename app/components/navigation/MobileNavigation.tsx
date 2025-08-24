@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
+import { Separator } from '@/components/ui/separator';
 import {
   Sheet,
   SheetClose,
@@ -20,21 +21,19 @@ export default function MobileNavigation() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <SquareMenu
-          width={36}
-          height={36}
-          className="text-primary mt-2 sm:hidden"
-        />
+        <SquareMenu width={36} height={36} className="text-white sm:hidden" />
       </SheetTrigger>
       <SheetContent
         side="left"
-        className="bg-primary-dark text-primary border-none"
+        className="from-primary to-primary-600 border-none bg-gradient-to-b text-white"
       >
         <SheetHeader>
           <SheetTitle className="hidden">Navigation</SheetTitle>
-          <SheetDescription className="hidden">Test</SheetDescription>
+          <SheetDescription className="hidden">
+            Mobile Navigation Menu
+          </SheetDescription>
 
-          <Link href="/" className="mt-6">
+          <Link href="/" className="">
             <div style={{ position: 'relative', width: 120, height: 60 }}>
               <Image
                 src="/assets/icons/pistac-media-logo.png"
@@ -47,7 +46,7 @@ export default function MobileNavigation() {
               />
             </div>
           </Link>
-
+          <Separator />
           <div className="no-scrollbar flex h-[calc(100vh-80px)] flex-col justify-between overflow-y-auto">
             <section className="flex h-full flex-col gap-1 pt-4">
               <SheetClose asChild>
